@@ -1,0 +1,2276 @@
+#NEXUS
+[written Mon Jan 20 00:39:44 CET 2014 by Mesquite  version 2.75 (build 566) at Mac-Intel-de-Michel-Laurin-2.local/192.168.1.70 (Juliana Sterli & Michel Laurin)]
+
+BEGIN TAXA;
+	TITLE Facultatively_neotenic;
+	DIMENSIONS NTAX=21;
+	TAXLABELS
+		A._texanum A._talpoideum A._tigrinum A._maculatum A._mexicanum Salamandra Lissotriton Pleurodeles Notophthalmus Onychodactylus Ranodon Salamandrella Dicamptodon Rhyacotriton Eurycea Gyrinophilus Hemidactylium Andrias Siren Necturus Amphiuma 
+	;
+
+END;
+
+
+BEGIN CHARACTERS;
+	TITLE  Ossification_matrix;
+	DIMENSIONS  NCHAR=24;
+	FORMAT DATATYPE = CONTINUOUS GAP = - MISSING = ?;
+CHARSTATELABELS 
+		1 corpos,
+		2 vopos,
+		3 palpos,
+		4 dentpos,
+		5 pmxpos,
+		6 prapos,
+		7 sqpos,
+		8 prspos,
+		9 frpos,
+		10 parpos,
+		11 ptpos,
+		12 exopos,
+		13 mxpos,
+		14 qpos,
+		15 oppos,
+		16 prfpos,
+		17 poopos,
+		18 stpos,
+		19 orspos,
+		20 naspos,
+		21 smxpos,
+		22 artpos,
+		23 thypos,
+		24 mentpos ; 
+	MATRIX
+	A._texanum       0.0 0.0 0.0 0.0 1.0 2.0 3.0 4.0 5.0 6.0 6.0 7.0 8.0 9.0 10.0 11.0 11.0 12.0 13.0 14.0 14.0 15.0 ? ?
+	A._talpoideum    0.0 0.0 0.0 0.0 0.0 0.0 0.0 1.0 1.0 1.0 2.0 2.0 2.0 2.0 2.0 2.0 2.0 2.0 3.0 5.0 4.0 6.0 ? ?
+	A._tigrinum      0.0 0.0 0.0 1.0 2.0 4.0 3.0 5.0 6.0 7.0 5.0 10.0 8.0 9.0 12.0 11.0 13.0 14.0 15.0 16.0 13.0 17.0 ? ?
+	A._maculatum     0.0 0.0 1.0 0.0 0.0 4.0 1.0 3.0 2.0 2.0 3.0 4.0 5.0 5.0 6.0 7.0 6.0 10.0 ? 9.0 8.0 11.0 6.0 11.0
+	A._mexicanum     0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 1.0 2.0 0.0 5.0 4.0 3.0 9.0 6.0 7.0 ? 10.0 8.0 8.0 ? ? 11.0
+	Salamandra       0.0 0.0 0.0 0.0 1.0 0.0 2.0 2.0 2.0 2.0 0.0 4.0 4.0 5.0 4.0 4.0 4.0 ? 5.0 4.0 ? 7.0 6.0 5.0
+	Lissotriton      0.0 0.0 0.0 1.0 2.0 3.0 2.0 12.0 4.0 5.0 2.0 6.0 13.0 9.0 ? 14.0 8.0 ? 7.0 11.0 ? ? ? 10.0
+	Pleurodeles      0.0 0.0 0.0 0.0 0.0 1.0 1.0 0.0 1.0 2.0 1.0 3.0 5.0 4.0 ? 5.0 5.0 ? 4.0 5.0 ? ? ? ?
+	Notophthalmus    0.0 0.0 0.0 0.0 0.0 0.0 0.0 1.0 1.0 1.0 1.0 1.0 2.0 1.0 1.0 2.0 1.0 ? 1.0 3.0 ? 5.0 ? ?
+	Onychodactylus   2.0 1.0 2.0 0.0 0.0 2.0 0.0 1.0 0.0 1.0 2.0 2.0 7.0 6.0 5.0 6.0 4.0 3.0 6.0 2.0 8.0 9.0 ? 6.0
+	Ranodon          0.0 1.0 1.0 0.0 1.0 3.0 2.0 0.0 1.0 1.0 3.0 5.0 9.0 10.0 7.0 9.0 7.0 9.0 9.0 6.0 11.0 12.0 ? 12.0
+	Salamandrella    0.0 0.0 0.0 0.0 1.0 4.0 3.0 2.0 2.0 3.0 2.0 5.0 6.0 8.0 8.0 7.0 7.0 9.0 8.0 6.0 7.0 10.0 ? 10.0
+	Dicamptodon      0.0 0.0 0.0 0.0 0.0 ? 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 2.0 0.0 2.0 1.0 3.0 7.0 6.0 5.0 0.0 4.0
+	Rhyacotriton     ? 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 1.0 0.0 0.0 1.0 3.0 2.0 ? 0.0 ?
+	Eurycea          0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 6.0 1.0 2.0 8.0 2.0 3.0 4.0 9.0 7.0 ? 5.0 ?
+	Gyrinophilus     1.0 1.0 1.0 0.0 0.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 5.0 2.0 2.0 6.0 2.0 3.0 4.0 6.0 6.0 ? 4.0 ?
+	Hemidactylium    0.0 1.0 1.0 0.0 0.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 7.0 2.0 4.0 8.0 3.0 6.0 3.0 8.0 8.0 ? 5.0 ?
+	Andrias          2.0 1.0 3.0 0.0 0.0 2.0 2.0 2.0 2.0 2.0 2.0 4.0 3.0 5.0 4.0 3.0 4.0 5.0 4.0 3.0 ? 4.0 ? 4.0
+	Siren            0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 1.0 6.0 ? 3.0 ? 5.0 ? 2.0 4.0 ? 7.0 ? ?
+	Necturus         0.0 2.0 3.0 0.0 0.0 0.0 0.0 1.0 1.0 1.0 3.0 5.0 ? 0.0 5.0 ? 4.0 5.0 ? ? ? ? ? 0.0
+	Amphiuma         ? 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 2.0 0.0 1.0 2.0 2.0 1.0 1.0 2.0 1.0 1.0 ? 2.0 ? ?
+
+;
+
+END;
+BEGIN CHARACTERS;
+	TITLE  Ossification_matrix_scaled;
+	DIMENSIONS  NCHAR=22;
+	FORMAT DATATYPE = CONTINUOUS GAP = - MISSING = ?;
+CHARSTATELABELS 
+		1 cor,
+		2 vo,
+		3 palatine,
+		4 dentary,
+		5 premaxilla,
+		6 prearticular,
+		7 squamosal,
+		8 parasphenoid,
+		9 frontal,
+		10 parietal,
+		11 pterygoid,
+		12 exoccipital,
+		13 maxilla,
+		14 quadrate,
+		15 opisthotic,
+		16 prefrontal,
+		17 prootic,
+		18 stapes,
+		19 orbitosphenoid,
+		20 nasal,
+		21 septomaxilla,
+		22 'Ontogeny type, 3 states' ; 
+	MATRIX
+	A._texanum       0.0 0.0 0.0 0.0 0.0714285714285714 0.142857142857143 0.214285714285714 0.285714285714286 0.357142857142857 0.428571428571429 0.428571428571429 0.5 0.571428571428571 0.642857142857143 0.714285714285714 0.785714285714286 0.785714285714286 0.857142857142857 0.928571428571429 1.0 1.0 0.0
+	A._talpoideum    0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.2 0.2 0.2 0.4 0.4 0.4 0.4 0.4 0.4 0.4 0.4 0.6 1.0 0.8 1.0
+	A._tigrinum      0.0 0.0 0.0 0.0625 0.125 0.25 0.1875 0.3125 0.375 0.4375 0.3125 0.625 0.5 0.5625 0.75 0.6875 0.8125 0.875 0.9375 1.0 0.8125 1.0
+	A._maculatum     0.0 0.0 0.1 0.0 0.0 0.4 0.1 0.3 0.2 0.2 0.3 0.4 0.5 0.5 0.6 0.7 0.6 1.0 ? 0.9 0.8 0.0
+	A._mexicanum     0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.1 0.2 0.0 0.5 0.4 0.3 0.9 0.6 0.7 ? 1.0 0.8 0.8 1.0
+	Salamandra       0.0 0.0 0.0 0.0 0.2 0.0 0.4 0.4 0.4 0.4 0.0 0.8 0.8 1.0 0.8 0.8 0.8 ? 1.0 0.8 ? 0.0
+	Lissotriton      0.0 0.0 0.0 0.0714285714285714 0.142857142857143 0.214285714285714 0.142857142857143 0.857142857142857 0.285714285714286 0.357142857142857 0.142857142857143 0.428571428571429 0.928571428571429 0.642857142857143 ? 1.0 0.571428571428571 ? 0.5 0.785714285714286 ? 1.0
+	Pleurodeles      0.0 0.0 0.0 0.0 0.0 0.2 0.2 0.0 0.2 0.4 0.2 0.6 1.0 0.8 ? 1.0 1.0 ? 0.8 1.0 ? 1.0
+	Notophthalmus    0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.333333333333333 0.333333333333333 0.333333333333333 0.333333333333333 0.333333333333333 0.666666666666667 0.333333333333333 0.333333333333333 0.666666666666667 0.333333333333333 ? 0.333333333333333 1.0 ? 1.0
+	Onychodactylus   0.25 0.125 0.25 0.0 0.0 0.25 0.0 0.125 0.0 0.125 0.25 0.25 0.875 0.75 0.625 0.75 0.5 0.375 0.75 0.25 1.0 0.0
+	Ranodon          0.0 0.0909090909090909 0.0909090909090909 0.0 0.0909090909090909 0.272727272727273 0.181818181818182 0.0 0.0909090909090909 0.0909090909090909 0.272727272727273 0.454545454545455 0.818181818181818 0.909090909090909 0.636363636363636 0.818181818181818 0.636363636363636 0.818181818181818 0.818181818181818 0.545454545454545 1.0 0.0
+	Salamandrella    0.0 0.0 0.0 0.0 0.111111111111111 0.444444444444444 0.333333333333333 0.222222222222222 0.222222222222222 0.333333333333333 0.222222222222222 0.555555555555556 0.666666666666667 0.888888888888889 0.888888888888889 0.777777777777778 0.777777777777778 1.0 0.888888888888889 0.666666666666667 0.777777777777778 0.0
+	Dicamptodon      0.0 0.0 0.0 0.0 0.0 ? 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.285714285714286 0.0 0.285714285714286 0.142857142857143 0.428571428571429 1.0 0.857142857142857 1.0
+	Rhyacotriton     ? 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.333333333333333 0.0 0.0 0.333333333333333 1.0 0.666666666666667 0.0
+	Eurycea          0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.666666666666667 0.111111111111111 0.222222222222222 0.888888888888889 0.222222222222222 0.333333333333333 0.444444444444444 1.0 0.777777777777778 0.0
+	Gyrinophilus     0.166666666666667 0.166666666666667 0.166666666666667 0.0 0.0 0.166666666666667 0.166666666666667 0.166666666666667 0.166666666666667 0.166666666666667 0.166666666666667 0.166666666666667 0.833333333333333 0.333333333333333 0.333333333333333 1.0 0.333333333333333 0.5 0.666666666666667 1.0 1.0 0.0
+	Hemidactylium    0.0 0.125 0.125 0.0 0.0 0.125 0.125 0.125 0.125 0.125 0.125 0.125 0.875 0.25 0.5 1.0 0.375 0.75 0.375 1.0 1.0 0.0
+	Andrias          0.4 0.2 0.6 0.0 0.0 0.4 0.4 0.4 0.4 0.4 0.4 0.8 0.6 1.0 0.8 0.6 0.8 1.0 0.8 0.6 ? 2.0
+	Siren            0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.166666666666667 1.0 ? 0.5 ? 0.833333333333333 ? 0.333333333333333 0.666666666666667 ? 2.0
+	Necturus         0.0 0.4 0.6 0.0 0.0 0.0 0.0 0.2 0.2 0.2 0.6 1.0 ? 0.0 1.0 ? 0.8 1.0 ? ? ? 2.0
+	Amphiuma         ? 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 1.0 0.0 0.5 1.0 1.0 0.5 0.5 1.0 0.5 0.5 ? 2.0
+
+;
+
+END;
+BEGIN CHARACTERS;
+	TITLE  ossification_sequence_categ;
+	DIMENSIONS  NCHAR=21;
+	FORMAT DATATYPE = STANDARD GAP = - MISSING = ? SYMBOLS = "  0 1 2 3 4 5 6 7 8 9 A B C D E F G H J K M N P Q R S T U V W X Y Z a b c d e f g h j k m n p q";
+	CHARSTATELABELS 
+		1 corpos, 2 vopos, 3 palpos, 4 dentpos, 5 pmxpos, 6 prapos, 7 sqpos, 8 prspos, 9 frpos, 10 parpos, 11 ptpos, 12 exopos, 13 mxpos, 14 qpos, 15 oppos, 16 prfpos, 17 poopos, 18 stpos, 19 orspos, 20 naspos, 21 smxpos ; 
+	MATRIX
+	A._texanum      aaaabcdefggh?jk??mnaa
+	A._talpoideum   aaaaaaabbbccccccccdfe
+	A._tigrinum     aaabcedfghfk?jm?napqn
+	A._maculatum    aabaaebdccdeffghgk?j?
+	A._mexicanum    aaaaaaaabcafedjgh?k??
+	Salamandra      aaaabaccccaeefeee?fe?
+	Lissotriton     aaabcdcmefcgnj?a??h??
+	Pleurodeles     aaaaabbabcbdfe?ff?ef?
+	Notophthalmus   aaaaaaabbbbbcbbcb?bd?
+	Onychodactylus  cbcaacababcchgfgedgc?
+	Ranodon         abbabdcabbdfjkhjhjjg?
+	Salamandrella   aaaabedccdcfg??hhj?gh
+	Dicamptodon     aaaaa?aaaaaaaacacbdhg
+	Rhyacotriton    ?aaaaaaaaaaaaaabaabdc
+	Eurycea         aaaaaaaaaaaagbc?cdejh
+	Gyrinophilus    bbbaabbbbbbbfccgcdegg
+	Hemidactylium   abbaabbbbbbbhce?dgd??
+	Andrias         cbdaaccccccedfedefed?
+	Siren           aaaaaaaaaaabg?d?f?ce?
+	Necturus        acdaaaabbbdf?af?ef???
+	Amphiuma        ?aaaaaaaaacabccbbcbb?
+
+;
+
+END;
+BEGIN CHARACTERS;
+	TITLE  Ontogenetic_type_Matrix;
+	DIMENSIONS  NCHAR=2;
+	FORMAT DATATYPE = STANDARD GAP = - MISSING = ? SYMBOLS = "  0 1 2 3";
+	CHARSTATELABELS 
+		1 'Ontogeny type, 4 states' /  metamorphic facultatively_neotenic_but_normally_metamorphic facultatively_but_normally_neotenic obligatorily_neotenic, 2 'Ontogeny type, 3 states' /  metamorphic facultatively_neotenic obligatorily_neotenic ; 
+	MATRIX
+	A._texanum      00
+	A._talpoideum   11
+	A._tigrinum     11
+	A._maculatum    00
+	A._mexicanum    21
+	Salamandra      00
+	Lissotriton     11
+	Pleurodeles     11
+	Notophthalmus   11
+	Onychodactylus  00
+	Ranodon         00
+	Salamandrella   00
+	Dicamptodon     11
+	Rhyacotriton    00
+	Eurycea         00
+	Gyrinophilus    00
+	Hemidactylium   00
+	Andrias         32
+	Siren           32
+	Necturus        32
+	Amphiuma        32
+
+;
+
+END;
+BEGIN CHARACTERS;
+	TITLE  'Ossification matrix scaled, no ?, all tx';
+	DIMENSIONS  NCHAR=11;
+	FORMAT DATATYPE = CONTINUOUS GAP = - MISSING = ?;
+CHARSTATELABELS 
+		1 vomer,
+		2 palatine,
+		3 dentary,
+		4 premaxilla,
+		5 squamosal,
+		6 parasphenoid,
+		7 frontal,
+		8 parietal,
+		9 pterygoid,
+		10 exoccipital,
+		11 prootic ; 
+	MATRIX
+	A._texanum       0.0 0.0 0.0 0.0714285714285714 0.214285714285714 0.285714285714286 0.357142857142857 0.428571428571429 0.428571428571429 0.5 0.785714285714286
+	A._talpoideum    0.0 0.0 0.0 0.0 0.0 0.2 0.2 0.2 0.4 0.4 0.4
+	A._tigrinum      0.0 0.0 0.0625 0.125 0.1875 0.3125 0.375 0.4375 0.3125 0.625 0.8125
+	A._maculatum     0.0 0.1 0.0 0.0 0.1 0.3 0.2 0.2 0.3 0.4 0.6
+	A._mexicanum     0.0 0.0 0.0 0.0 0.0 0.0 0.1 0.2 0.0 0.5 0.7
+	Salamandra       0.0 0.0 0.0 0.2 0.4 0.4 0.4 0.4 0.0 0.8 0.8
+	Lissotriton      0.0 0.0 0.0714285714285714 0.142857142857143 0.142857142857143 0.857142857142857 0.285714285714286 0.357142857142857 0.142857142857143 0.428571428571429 0.571428571428571
+	Pleurodeles      0.0 0.0 0.0 0.0 0.2 0.0 0.2 0.4 0.2 0.6 1.0
+	Notophthalmus    0.0 0.0 0.0 0.0 0.0 0.333333333333333 0.333333333333333 0.333333333333333 0.333333333333333 0.333333333333333 0.333333333333333
+	Onychodactylus   0.125 0.25 0.0 0.0 0.0 0.125 0.0 0.125 0.25 0.25 0.5
+	Ranodon          0.0909090909090909 0.0909090909090909 0.0 0.0909090909090909 0.181818181818182 0.0 0.0909090909090909 0.0909090909090909 0.272727272727273 0.454545454545455 0.636363636363636
+	Salamandrella    0.0 0.0 0.0 0.111111111111111 0.333333333333333 0.222222222222222 0.222222222222222 0.333333333333333 0.222222222222222 0.555555555555556 0.777777777777778
+	Dicamptodon      0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.285714285714286
+	Rhyacotriton     0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0
+	Eurycea          0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.222222222222222
+	Gyrinophilus     0.166666666666667 0.166666666666667 0.0 0.0 0.166666666666667 0.166666666666667 0.166666666666667 0.166666666666667 0.166666666666667 0.166666666666667 0.333333333333333
+	Hemidactylium    0.125 0.125 0.0 0.0 0.125 0.125 0.125 0.125 0.125 0.125 0.375
+	Andrias          0.2 0.6 0.0 0.0 0.4 0.4 0.4 0.4 0.4 0.8 0.8
+	Siren            0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.166666666666667 0.833333333333333
+	Necturus         0.4 0.6 0.0 0.0 0.0 0.2 0.2 0.2 0.6 1.0 0.8
+	Amphiuma         0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 1.0 0.0 0.5
+
+;
+
+END;
+BEGIN CHARACTERS;
+	TITLE  'Ossifi matrix scaled, no ?, all tx, 6 ch (3CVA1, 3CVA2)';
+	DIMENSIONS  NCHAR=6;
+	FORMAT DATATYPE = CONTINUOUS GAP = - MISSING = ?;
+CHARSTATELABELS 
+		1 squamosal,
+		2 parasphenoid,
+		3 frontal,
+		4 pterygoid,
+		5 exoccipital,
+		6 prootic ; 
+	MATRIX
+	A._texanum       0.214285714285714 0.285714285714286 0.357142857142857 0.428571428571429 0.5 0.785714285714286
+	A._talpoideum    0.0 0.2 0.2 0.4 0.4 0.4
+	A._tigrinum      0.1875 0.3125 0.375 0.3125 0.625 0.8125
+	A._maculatum     0.1 0.3 0.2 0.3 0.4 0.6
+	A._mexicanum     0.0 0.0 0.1 0.0 0.5 0.7
+	Salamandra       0.4 0.4 0.4 0.0 0.8 0.8
+	Lissotriton      0.142857142857143 0.857142857142857 0.285714285714286 0.142857142857143 0.428571428571429 0.571428571428571
+	Pleurodeles      0.2 0.0 0.2 0.2 0.6 1.0
+	Notophthalmus    0.0 0.333333333333333 0.333333333333333 0.333333333333333 0.333333333333333 0.333333333333333
+	Onychodactylus   0.0 0.125 0.0 0.25 0.25 0.5
+	Ranodon          0.181818181818182 0.0 0.0909090909090909 0.272727272727273 0.454545454545455 0.636363636363636
+	Salamandrella    0.333333333333333 0.222222222222222 0.222222222222222 0.222222222222222 0.555555555555556 0.777777777777778
+	Dicamptodon      0.0 0.0 0.0 0.0 0.0 0.285714285714286
+	Rhyacotriton     0.0 0.0 0.0 0.0 0.0 0.0
+	Eurycea          0.0 0.0 0.0 0.0 0.0 0.222222222222222
+	Gyrinophilus     0.166666666666667 0.166666666666667 0.166666666666667 0.166666666666667 0.166666666666667 0.333333333333333
+	Hemidactylium    0.125 0.125 0.125 0.125 0.125 0.375
+	Andrias          0.4 0.4 0.4 0.4 0.8 0.8
+	Siren            0.0 0.0 0.0 0.0 0.166666666666667 0.833333333333333
+	Necturus         0.0 0.2 0.2 0.6 1.0 0.8
+	Amphiuma         0.0 0.0 0.0 1.0 0.0 0.5
+
+;
+
+END;
+BEGIN CHARACTERS;
+	TITLE  'Ossifi matrix scaled, no ?, all tx2, 6 ch sum CDA 1+2';
+	DIMENSIONS  NCHAR=6;
+	FORMAT DATATYPE = CONTINUOUS GAP = - MISSING = ?;
+CHARSTATELABELS 
+		1 dentary,
+		2 squamosal,
+		3 parasphenoid,
+		4 frontal,
+		5 pterygoid,
+		6 prootic ; 
+	MATRIX
+	A._texanum       0.0 0.214285714285714 0.285714285714286 0.357142857142857 0.428571428571429 0.785714285714286
+	A._talpoideum    0.0 0.0 0.2 0.2 0.4 0.4
+	A._tigrinum      0.0625 0.1875 0.3125 0.375 0.3125 0.8125
+	A._maculatum     0.0 0.1 0.3 0.2 0.3 0.6
+	A._mexicanum     0.0 0.0 0.0 0.1 0.0 0.7
+	Salamandra       0.0 0.4 0.4 0.4 0.0 0.8
+	Lissotriton      0.0714285714285714 0.142857142857143 0.857142857142857 0.285714285714286 0.142857142857143 0.571428571428571
+	Pleurodeles      0.0 0.2 0.0 0.2 0.2 1.0
+	Notophthalmus    0.0 0.0 0.333333333333333 0.333333333333333 0.333333333333333 0.333333333333333
+	Onychodactylus   0.0 0.0 0.125 0.0 0.25 0.5
+	Ranodon          0.0 0.181818181818182 0.0 0.0909090909090909 0.272727272727273 0.636363636363636
+	Salamandrella    0.0 0.333333333333333 0.222222222222222 0.222222222222222 0.222222222222222 0.777777777777778
+	Dicamptodon      0.0 0.0 0.0 0.0 0.0 0.285714285714286
+	Rhyacotriton     0.0 0.0 0.0 0.0 0.0 0.0
+	Eurycea          0.0 0.0 0.0 0.0 0.0 0.222222222222222
+	Gyrinophilus     0.0 0.166666666666667 0.166666666666667 0.166666666666667 0.166666666666667 0.333333333333333
+	Hemidactylium    0.0 0.125 0.125 0.125 0.125 0.375
+	Andrias          0.0 0.4 0.4 0.4 0.4 0.8
+	Siren            0.0 0.0 0.0 0.0 0.0 0.833333333333333
+	Necturus         0.0 0.0 0.2 0.2 0.6 0.8
+	Amphiuma         0.0 0.0 0.0 0.0 1.0 0.5
+
+;
+
+END;
+BEGIN CHARACTERS;
+	TITLE  Ossification_matrix_completed_PhyloPars;
+	DIMENSIONS  NCHAR=21;
+	FORMAT DATATYPE = CONTINUOUS GAP = - MISSING = ?;
+CHARSTATELABELS 
+		1 coronoid,
+		2 vomer,
+		3 palatine,
+		4 dentary,
+		5 premaxilla,
+		6 prearticular,
+		7 squamosal,
+		8 parasphenoid,
+		9 frontal,
+		10 parietal,
+		11 pterygoid,
+		12 exoccipital,
+		13 maxilla,
+		14 quadrate,
+		15 opisthotic,
+		16 prefrontal,
+		17 prootic,
+		18 stapes,
+		19 orbitosphenoid,
+		20 nasal,
+		21 septomaxilla ; 
+	MATRIX
+	A._texanum       0.0 0.0 0.0 0.0 1.0 2.0 3.0 4.0 5.0 6.0 6.0 7.0 8.0 9.0 10.0 11.0 11.0 12.0 13.0 14.0 14.0
+	A._talpoideum    0.0 0.0 0.0 0.0 0.0 0.0 0.0 1.0 1.0 1.0 2.0 2.0 2.0 2.0 2.0 2.0 2.0 2.0 3.0 5.0 4.0
+	A._tigrinum      0.0 0.0 0.0 1.0 2.0 4.0 3.0 5.0 6.0 7.0 5.0 10.0 8.0 9.0 12.0 11.0 13.0 14.0 15.0 16.0 13.0
+	A._maculatum     0.0 0.0 1.0 0.0 0.0 4.0 1.0 3.0 2.0 2.0 3.0 4.0 5.0 5.0 6.0 7.0 6.0 10.0 11.0 9.0 8.0
+	A._mexicanum     0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 1.0 2.0 0.0 5.0 4.0 3.0 9.0 6.0 7.0 11.0 10.0 8.0 8.0
+	Salamandra       0.0 0.0 0.0 0.0 1.0 0.0 2.0 2.0 2.0 2.0 0.0 3.0 3.0 4.0 3.0 3.0 3.0 5.0 4.0 3.0 6.0
+	Lissotriton      0.0 0.0 0.0 1.0 2.0 4.0 2.0 11.0 5.0 6.0 2.0 7.0 13.0 9.0 12.0 14.0 8.0 8.0 9.0 10.0 3.0
+	Pleurodeles      0.0 0.0 0.0 0.0 0.0 1.0 1.0 0.0 1.0 2.0 1.0 3.0 5.0 4.0 6.0 5.0 5.0 8.0 4.0 5.0 7.0
+	Notophthalmus    0.0 0.0 0.0 0.0 0.0 0.0 0.0 1.0 1.0 1.0 1.0 1.0 3.0 1.0 1.0 3.0 1.0 5.0 1.0 4.0 2.0
+	Onychodactylus   2.0 1.0 2.0 0.0 0.0 2.0 0.0 1.0 0.0 1.0 2.0 2.0 7.0 6.0 5.0 6.0 4.0 3.0 6.0 2.0 8.0
+	Ranodon          0.0 1.0 1.0 0.0 1.0 3.0 2.0 0.0 1.0 1.0 3.0 4.0 7.0 8.0 6.0 7.0 6.0 7.0 7.0 5.0 9.0
+	Salamandrella    0.0 0.0 0.0 0.0 1.0 4.0 3.0 2.0 2.0 3.0 2.0 5.0 6.0 8.0 8.0 7.0 7.0 9.0 8.0 6.0 7.0
+	Dicamptodon      1.0 1.0 1.0 1.0 1.0 0.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 3.0 1.0 3.0 2.0 4.0 6.0 5.0
+	Rhyacotriton     1.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 2.0 0.0 0.0 2.0 4.0 3.0
+	Eurycea          0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 5.0 1.0 2.0 7.0 2.0 3.0 4.0 8.0 6.0
+	Gyrinophilus     1.0 1.0 1.0 0.0 0.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 5.0 2.0 2.0 6.0 2.0 3.0 4.0 6.0 6.0
+	Hemidactylium    0.0 1.0 1.0 0.0 0.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 6.0 2.0 4.0 7.0 3.0 5.0 3.0 7.0 7.0
+	Andrias          2.0 1.0 3.0 0.0 0.0 2.0 2.0 2.0 2.0 2.0 2.0 4.0 3.0 5.0 4.0 3.0 4.0 5.0 4.0 3.0 6.0
+	Siren            1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 2.0 9.0 5.0 4.0 10.0 7.0 0.0 3.0 6.0 8.0
+	Necturus         1.0 4.0 5.0 1.0 1.0 1.0 1.0 2.0 2.0 2.0 5.0 7.0 3.0 1.0 7.0 0.0 6.0 7.0 10.0 8.0 9.0
+	Amphiuma         0.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 3.0 1.0 2.0 3.0 3.0 2.0 2.0 3.0 2.0 2.0 4.0
+
+;
+
+END;
+BEGIN CHARACTERS;
+	TITLE  Ossification_matrix_completed_PhyloPars_scaled;
+	DIMENSIONS  NCHAR=21;
+	FORMAT DATATYPE = CONTINUOUS GAP = - MISSING = ?;
+CHARSTATELABELS 
+		1 coronoid,
+		2 vomer,
+		3 palatine,
+		4 dentary,
+		5 premaxilla,
+		6 prearticular,
+		7 squamosal,
+		8 parasphenoid,
+		9 frontal,
+		10 parietal,
+		11 pterygoid,
+		12 exoccipital,
+		13 maxilla,
+		14 quadrate,
+		15 opisthotic,
+		16 prefrontal,
+		17 prootic,
+		18 stapes,
+		19 orbitosphenoid,
+		20 nasal,
+		21 septomaxilla ; 
+	MATRIX
+	A._texanum       0.0 0.0 0.0 0.0 0.0714285714285714 0.142857142857143 0.214285714285714 0.285714285714286 0.357142857142857 0.428571428571429 0.428571428571429 0.5 0.571428571428571 0.642857142857143 0.714285714285714 0.785714285714286 0.785714285714286 0.857142857142857 0.928571428571429 1.0 1.0
+	A._talpoideum    0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.2 0.2 0.2 0.4 0.4 0.4 0.4 0.4 0.4 0.4 0.4 0.6 1.0 0.8
+	A._tigrinum      0.0 0.0 0.0 0.0625 0.125 0.25 0.1875 0.3125 0.375 0.4375 0.3125 0.625 0.5 0.5625 0.75 0.6875 0.8125 0.875 0.9375 1.0 0.8125
+	A._maculatum     0.0 0.0 0.0909090909090909 0.0 0.0 0.363636363636364 0.0909090909090909 0.272727272727273 0.181818181818182 0.181818181818182 0.272727272727273 0.363636363636364 0.454545454545455 0.454545454545455 0.545454545454545 0.636363636363636 0.545454545454545 0.909090909090909 1.0 0.818181818181818 0.727272727272727
+	A._mexicanum     0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0909090909090909 0.181818181818182 0.0 0.454545454545455 0.363636363636364 0.272727272727273 0.818181818181818 0.545454545454545 0.636363636363636 1.0 0.909090909090909 0.727272727272727 0.727272727272727
+	Salamandra       0.0 0.0 0.0 0.0 0.166666666666667 0.0 0.333333333333333 0.333333333333333 0.333333333333333 0.333333333333333 0.0 0.5 0.5 0.666666666666667 0.5 0.5 0.5 0.833333333333333 0.666666666666667 0.5 1.0
+	Lissotriton      0.0 0.0 0.0 0.0714285714285714 0.142857142857143 0.285714285714286 0.142857142857143 0.785714285714286 0.357142857142857 0.428571428571429 0.142857142857143 0.5 0.928571428571429 0.642857142857143 0.857142857142857 1.0 0.571428571428571 0.571428571428571 0.642857142857143 0.714285714285714 0.214285714285714
+	Pleurodeles      0.0 0.0 0.0 0.0 0.0 0.125 0.125 0.0 0.125 0.25 0.125 0.375 0.625 0.5 0.75 0.625 0.625 1.0 0.5 0.625 0.875
+	Notophthalmus    0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.2 0.2 0.2 0.2 0.2 0.6 0.2 0.2 0.6 0.2 1.0 0.2 0.8 0.4
+	Onychodactylus   0.25 0.125 0.25 0.0 0.0 0.25 0.0 0.125 0.0 0.125 0.25 0.25 0.875 0.75 0.625 0.75 0.5 0.375 0.75 0.25 1.0
+	Ranodon          0.0 0.111111111111111 0.111111111111111 0.0 0.111111111111111 0.333333333333333 0.222222222222222 0.0 0.111111111111111 0.111111111111111 0.333333333333333 0.444444444444444 0.777777777777778 0.888888888888889 0.666666666666667 0.777777777777778 0.666666666666667 0.777777777777778 0.777777777777778 0.555555555555556 1.0
+	Salamandrella    0.0 0.0 0.0 0.0 0.111111111111111 0.444444444444444 0.333333333333333 0.222222222222222 0.222222222222222 0.333333333333333 0.222222222222222 0.555555555555556 0.666666666666667 0.888888888888889 0.888888888888889 0.777777777777778 0.777777777777778 1.0 0.888888888888889 0.666666666666667 0.777777777777778
+	Dicamptodon      0.166666666666667 0.166666666666667 0.166666666666667 0.166666666666667 0.166666666666667 0.0 0.166666666666667 0.166666666666667 0.166666666666667 0.166666666666667 0.166666666666667 0.166666666666667 0.166666666666667 0.166666666666667 0.5 0.166666666666667 0.5 0.333333333333333 0.666666666666667 1.0 0.833333333333333
+	Rhyacotriton     0.25 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.5 0.0 0.0 0.5 1.0 0.75
+	Eurycea          0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.625 0.125 0.25 0.875 0.25 0.375 0.5 1.0 0.75
+	Gyrinophilus     0.166666666666667 0.166666666666667 0.166666666666667 0.0 0.0 0.166666666666667 0.166666666666667 0.166666666666667 0.166666666666667 0.166666666666667 0.166666666666667 0.166666666666667 0.833333333333333 0.333333333333333 0.333333333333333 1.0 0.333333333333333 0.5 0.666666666666667 1.0 1.0
+	Hemidactylium    0.0 0.142857142857143 0.142857142857143 0.0 0.0 0.142857142857143 0.142857142857143 0.142857142857143 0.142857142857143 0.142857142857143 0.142857142857143 0.142857142857143 0.857142857142857 0.285714285714286 0.571428571428571 1.0 0.428571428571429 0.714285714285714 0.428571428571429 1.0 1.0
+	Andrias          0.333333333333333 0.166666666666667 0.5 0.0 0.0 0.333333333333333 0.333333333333333 0.333333333333333 0.333333333333333 0.333333333333333 0.333333333333333 0.666666666666667 0.5 0.833333333333333 0.666666666666667 0.5 0.666666666666667 0.833333333333333 0.666666666666667 0.5 1.0
+	Siren            0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.2 0.9 0.5 0.4 1.0 0.7 0.0 0.3 0.6 0.8
+	Necturus         0.1 0.4 0.5 0.1 0.1 0.1 0.1 0.2 0.2 0.2 0.5 0.7 0.3 0.1 0.7 0.0 0.6 0.7 1.0 0.8 0.9
+	Amphiuma         0.0 0.25 0.25 0.25 0.25 0.25 0.25 0.25 0.25 0.25 0.75 0.25 0.5 0.75 0.75 0.5 0.5 0.75 0.5 0.5 1.0
+
+;
+
+END;
+BEGIN TREES;
+	Title 'Trees from "ossification matrix"';
+	LINK Taxa = Facultatively_neotenic;
+	TRANSLATE
+		1 A._texanum,
+		2 A._talpoideum,
+		3 A._tigrinum,
+		4 A._maculatum,
+		5 A._mexicanum,
+		6 Salamandra,
+		7 Lissotriton,
+		8 Pleurodeles,
+		9 Notophthalmus,
+		10 Onychodactylus,
+		11 Ranodon,
+		12 Salamandrella,
+		13 Dicamptodon,
+		14 Rhyacotriton,
+		15 Eurycea,
+		16 Gyrinophilus,
+		17 Hemidactylium,
+		18 Andrias,
+		19 Siren,
+		20 Necturus,
+		21 Amphiuma;
+	TREE 'Larson & Dimmick 1993+++' = ((18,((12,11),10)),(((((2,4),(5,3,1)),13),(8,(6,(9,7)))),14,(((15,16),17),21),(19,20)));
+	TREE 'Poug et al. 2004 fig 3-1 a+++' = (19,((18,((12,11),10)),(((((((2,4),(5,3,1)),13),(8,(6,(9,7)))),20),14),(21,((15,16),17)))));
+	TREE 'Hay et al 1995+++' = (19,((18,((12,11),10)),(((15,16),17),(21,(((2,4),(5,3,1)),(14,((8,(6,(9,7))),(13,20))))))));
+	TREE 'Poug et al 2004 fig 3-1 b+++' = ((18,((12,11),10)),(((((2,4),(5,3,1)),13),(8,(6,(9,7)))),14,((15,16),17),(21,(19,20))));
+	TREE 'Wiens et al. 2005 fig 8+++' = ((18:139.1,((12:21.0,11:21.0):25.0,10:46.0):93.1):25.3,(19:161.4,(((((2:35.4,4:35.4,(3:5.2,5:5.2):30.2,1:35.4):26.3,13:61.7):10.9,(6:48.0,(8:42.0,(9:35.0,7:35.0):7.0):6.0):24.6):3.0,20:75.6):4.0,(14:76.6,(21:73.6,((15:42.0,16:42.0):21.0,17:63.0):10.6):3.0):3.0):81.8):3.0);
+	TREE 'parsimony evt pair+++' = (((((((2,9),((((4,(((6,((10,20),18)),12),11)),5),7),8)),19),(15,(16,17))),21),13),14);
+	TREE 'Wiens et al. 2005 fig 8; Pyron & wiens 2011 (Ambystoma), main reference tree' = ((18:139.1,((12:21.0,11:21.0):25.0,10:46.0)Hynobiidae:93.1)Cryptobranchoidea:25.3,(19:161.4,(((((((2:17.7,4:17.7):8.85,1:26.55):8.85,(3:5.2,5:5.2):30.2)Ambystomatidae:26.3,13:61.7):10.9,(6:48.0,(8:42.0,(9:35.0,7:35.0):7.0):6.0)Salamandridae:24.6):3.0,20:75.6):4.0,(14:76.6,(21:73.6,((15:42.0,16:42.0):21.0,17:63.0)Plethodontidae:10.6):3.0):3.0)Salamandroidea:81.8)Diadectosalamandroidea:3.0)Urodela;
+
+END;
+
+
+BEGIN MacCladeStart;
+	Extended;
+
+END;
+BEGIN NOTES;
+
+	SUT   TAXA = Facultatively_neotenic TAXON = 2 NAME = color INTEGER = 0;
+	SUT   TAXA = Facultatively_neotenic TAXON = 3 NAME = color INTEGER = 0;
+	SUT   TAXA = Facultatively_neotenic TAXON = 5 NAME = color INTEGER = 0;
+	TEXT  TAXA = Facultatively_neotenic TAXON = 7 TEXT = 'Initially called Triturus vulgaris, but this name is obsolete; the traditional delimitation of Triturus was paraphyletic.';
+	SUT   TAXA = Facultatively_neotenic TAXON = 7 NAME = color INTEGER = 0;
+	SUT   TAXA = Facultatively_neotenic TAXON = 8 NAME = color INTEGER = 0;
+	SUT   TAXA = Facultatively_neotenic TAXON = 9 NAME = color INTEGER = 0;
+	SUT   TAXA = Facultatively_neotenic TAXON = 13 NAME = color INTEGER = 0;
+
+	CHARACTERS = Ossification_matrix TAXA = Facultatively_neotenic;
+	TEXT   TAXON = 7 CHARACTER = 1 TEXT = 0;
+	SU  T = 14 C = 1 N = color I = 4;
+
+	SU  C = 2 N = color I = 8;
+	SU  T = 1 C = 2 N = color I = 8;
+	SU  T = 2 C = 2 N = color I = 8;
+	SU  T = 3 C = 2 N = color I = 8;
+	SU  T = 4 C = 2 N = color I = 8;
+	SU  T = 5 C = 2 N = color I = 8;
+	SU  T = 6 C = 2 N = color I = 8;
+	SU  T = 7 C = 2 N = color I = 8;
+	SU  T = 8 C = 2 N = color I = 8;
+	SU  T = 9 C = 2 N = color I = 8;
+	SU  T = 10 C = 2 N = color I = 8;
+	SU  T = 11 C = 2 N = color I = 8;
+	SU  T = 12 C = 2 N = color I = 8;
+	SU  T = 13 C = 2 N = color I = 8;
+	SU  T = 14 C = 2 N = color I = 8;
+	SU  T = 15 C = 2 N = color I = 8;
+	SU  T = 16 C = 2 N = color I = 8;
+	SU  T = 17 C = 2 N = color I = 8;
+	SU  T = 18 C = 2 N = color I = 8;
+	SU  T = 19 C = 2 N = color I = 8;
+	SU  T = 20 C = 2 N = color I = 8;
+	SU  T = 21 C = 2 N = color I = 8;
+
+	SU  C = 4 N = color I = 8;
+	SU  T = 1 C = 4 N = color I = 8;
+	SU  T = 2 C = 4 N = color I = 8;
+	SU  T = 3 C = 4 N = color I = 8;
+	SU  T = 4 C = 4 N = color I = 8;
+	SU  T = 5 C = 4 N = color I = 8;
+	SU  T = 6 C = 4 N = color I = 8;
+	SU  T = 7 C = 4 N = color I = 8;
+	SU  T = 8 C = 4 N = color I = 8;
+	SU  T = 9 C = 4 N = color I = 8;
+	SU  T = 10 C = 4 N = color I = 8;
+	SU  T = 11 C = 4 N = color I = 8;
+	SU  T = 12 C = 4 N = color I = 8;
+	SU  T = 13 C = 4 N = color I = 8;
+	SU  T = 14 C = 4 N = color I = 8;
+	SU  T = 15 C = 4 N = color I = 8;
+	SU  T = 16 C = 4 N = color I = 8;
+	SU  T = 17 C = 4 N = color I = 8;
+	SU  T = 18 C = 4 N = color I = 8;
+	SU  T = 19 C = 4 N = color I = 8;
+	SU  T = 20 C = 4 N = color I = 8;
+	SU  T = 21 C = 4 N = color I = 8;
+
+	SU  C = 5 N = color I = 8;
+	SU  T = 1 C = 5 N = color I = 8;
+	SU  T = 2 C = 5 N = color I = 8;
+	SU  T = 3 C = 5 N = color I = 8;
+	SU  T = 4 C = 5 N = color I = 8;
+	SU  T = 5 C = 5 N = color I = 8;
+	SU  T = 6 C = 5 N = color I = 8;
+	SU  T = 7 C = 5 N = color I = 8;
+	SU  T = 8 C = 5 N = color I = 8;
+	SU  T = 9 C = 5 N = color I = 8;
+	SU  T = 10 C = 5 N = color I = 8;
+	SU  T = 11 C = 5 N = color I = 8;
+	SU  T = 12 C = 5 N = color I = 8;
+	SU  T = 13 C = 5 N = color I = 8;
+	SU  T = 14 C = 5 N = color I = 8;
+	SU  T = 15 C = 5 N = color I = 8;
+	SU  T = 16 C = 5 N = color I = 8;
+	SU  T = 17 C = 5 N = color I = 8;
+	SU  T = 18 C = 5 N = color I = 8;
+	SU  T = 19 C = 5 N = color I = 8;
+	SU  T = 20 C = 5 N = color I = 8;
+	SU  T = 21 C = 5 N = color I = 8;
+
+	SU  T = 13 C = 6 N = color I = 5;
+
+	SU  C = 7 N = color I = 8;
+	SU  T = 1 C = 7 N = color I = 8;
+	SU  T = 2 C = 7 N = color I = 8;
+	SU  T = 3 C = 7 N = color I = 8;
+	SU  T = 4 C = 7 N = color I = 8;
+	SU  T = 5 C = 7 N = color I = 8;
+	SU  T = 6 C = 7 N = color I = 8;
+	SU  T = 7 C = 7 N = color I = 8;
+	SU  T = 8 C = 7 N = color I = 8;
+	SU  T = 9 C = 7 N = color I = 8;
+	SU  T = 10 C = 7 N = color I = 8;
+	SU  T = 11 C = 7 N = color I = 8;
+	SU  T = 12 C = 7 N = color I = 8;
+	SU  T = 13 C = 7 N = color I = 8;
+	SU  T = 14 C = 7 N = color I = 8;
+	SU  T = 15 C = 7 N = color I = 8;
+	SU  T = 16 C = 7 N = color I = 8;
+	SU  T = 17 C = 7 N = color I = 8;
+	SU  T = 18 C = 7 N = color I = 8;
+	SU  T = 19 C = 7 N = color I = 8;
+	SU  T = 20 C = 7 N = color I = 8;
+	SU  T = 21 C = 7 N = color I = 8;
+
+	SU  C = 8 N = color I = 8;
+	SU  T = 1 C = 8 N = color I = 8;
+	SU  T = 2 C = 8 N = color I = 8;
+	SU  T = 3 C = 8 N = color I = 8;
+	SU  T = 4 C = 8 N = color I = 8;
+	SU  T = 5 C = 8 N = color I = 8;
+	SU  T = 6 C = 8 N = color I = 8;
+	SU  T = 7 C = 8 N = color I = 8;
+	SU  T = 8 C = 8 N = color I = 8;
+	SU  T = 9 C = 8 N = color I = 8;
+	SU  T = 10 C = 8 N = color I = 8;
+	SU  T = 11 C = 8 N = color I = 8;
+	SU  T = 12 C = 8 N = color I = 8;
+	SU  T = 13 C = 8 N = color I = 8;
+	SU  T = 14 C = 8 N = color I = 8;
+	SU  T = 15 C = 8 N = color I = 8;
+	SU  T = 16 C = 8 N = color I = 8;
+	SU  T = 17 C = 8 N = color I = 8;
+	SU  T = 18 C = 8 N = color I = 8;
+	SU  T = 19 C = 8 N = color I = 8;
+	SU  T = 20 C = 8 N = color I = 8;
+	SU  T = 21 C = 8 N = color I = 8;
+
+	SU  C = 9 N = color I = 8;
+	SU  T = 1 C = 9 N = color I = 8;
+	SU  T = 2 C = 9 N = color I = 8;
+	SU  T = 3 C = 9 N = color I = 8;
+	SU  T = 4 C = 9 N = color I = 8;
+	SU  T = 5 C = 9 N = color I = 8;
+	SU  T = 6 C = 9 N = color I = 8;
+	SU  T = 7 C = 9 N = color I = 8;
+	SU  T = 8 C = 9 N = color I = 8;
+	SU  T = 9 C = 9 N = color I = 8;
+	SU  T = 10 C = 9 N = color I = 8;
+	SU  T = 11 C = 9 N = color I = 8;
+	SU  T = 12 C = 9 N = color I = 8;
+	SU  T = 13 C = 9 N = color I = 8;
+	SU  T = 14 C = 9 N = color I = 8;
+	SU  T = 15 C = 9 N = color I = 8;
+	SU  T = 16 C = 9 N = color I = 8;
+	SU  T = 17 C = 9 N = color I = 8;
+	SU  T = 18 C = 9 N = color I = 8;
+	SU  T = 19 C = 9 N = color I = 8;
+	SU  T = 20 C = 9 N = color I = 8;
+	SU  T = 21 C = 9 N = color I = 8;
+
+	SU  C = 10 N = color I = 8;
+	SU  T = 1 C = 10 N = color I = 8;
+	SU  T = 2 C = 10 N = color I = 8;
+	SU  T = 3 C = 10 N = color I = 8;
+	SU  T = 4 C = 10 N = color I = 8;
+	SU  T = 5 C = 10 N = color I = 8;
+	SU  T = 6 C = 10 N = color I = 8;
+	SU  T = 7 C = 10 N = color I = 8;
+	SU  T = 8 C = 10 N = color I = 8;
+	SU  T = 9 C = 10 N = color I = 8;
+	SU  T = 10 C = 10 N = color I = 8;
+	SU  T = 11 C = 10 N = color I = 8;
+	SU  T = 12 C = 10 N = color I = 8;
+	SU  T = 13 C = 10 N = color I = 8;
+	SU  T = 14 C = 10 N = color I = 8;
+	SU  T = 15 C = 10 N = color I = 8;
+	SU  T = 16 C = 10 N = color I = 8;
+	SU  T = 17 C = 10 N = color I = 8;
+	SU  T = 18 C = 10 N = color I = 8;
+	SU  T = 19 C = 10 N = color I = 8;
+	SU  T = 20 C = 10 N = color I = 8;
+	SU  T = 21 C = 10 N = color I = 8;
+
+	SU  C = 12 N = color I = 8;
+	SU  T = 1 C = 12 N = color I = 8;
+	SU  T = 2 C = 12 N = color I = 8;
+	SU  T = 3 C = 12 N = color I = 8;
+	SU  T = 4 C = 12 N = color I = 8;
+	SU  T = 5 C = 12 N = color I = 8;
+	SU  T = 6 C = 12 N = color I = 8;
+	SU  T = 7 C = 12 N = color I = 8;
+	SU  T = 8 C = 12 N = color I = 8;
+	SU  T = 9 C = 12 N = color I = 8;
+	SU  T = 10 C = 12 N = color I = 8;
+	SU  T = 11 C = 12 N = color I = 8;
+	SU  T = 12 C = 12 N = color I = 8;
+	SU  T = 13 C = 12 N = color I = 8;
+	SU  T = 14 C = 12 N = color I = 8;
+	SU  T = 15 C = 12 N = color I = 8;
+	SU  T = 16 C = 12 N = color I = 8;
+	SU  T = 17 C = 12 N = color I = 8;
+	SU  T = 18 C = 12 N = color I = 8;
+	SU  T = 19 C = 12 N = color I = 8;
+	SU  T = 20 C = 12 N = color I = 8;
+	SU  T = 21 C = 12 N = color I = 8;
+
+	SU  T = 20 C = 13 N = color I = 5;
+
+	SU  C = 17 N = color I = 8;
+	SU  T = 1 C = 17 N = color I = 8;
+	SU  T = 2 C = 17 N = color I = 8;
+	SU  T = 3 C = 17 N = color I = 8;
+	SU  T = 4 C = 17 N = color I = 8;
+	SU  T = 5 C = 17 N = color I = 8;
+	SU  T = 6 C = 17 N = color I = 8;
+	SU  T = 7 C = 17 N = color I = 8;
+	SU  T = 8 C = 17 N = color I = 8;
+	SU  T = 9 C = 17 N = color I = 8;
+	SU  T = 10 C = 17 N = color I = 8;
+	SU  T = 11 C = 17 N = color I = 8;
+	SU  T = 12 C = 17 N = color I = 8;
+	SU  T = 13 C = 17 N = color I = 8;
+	SU  T = 14 C = 17 N = color I = 8;
+	SU  T = 15 C = 17 N = color I = 8;
+	SU  T = 16 C = 17 N = color I = 8;
+	SU  T = 17 C = 17 N = color I = 8;
+	SU  T = 18 C = 17 N = color I = 8;
+	SU  T = 19 C = 17 N = color I = 8;
+	SU  T = 20 C = 17 N = color I = 8;
+	SU  T = 21 C = 17 N = color I = 8;
+
+	SU  T = 20 C = 20 N = color I = 5;
+
+	CHARACTERS = Ossification_matrix_scaled TAXA = Facultatively_neotenic;
+	TEXT   TAXON = 3 CHARACTER = 1 TEXT = '?	0	?	0	0	0	0	0	0	0	?	0	?	1	0	0	0	0	?	0	?^n0	0	0	0	0.0714285714285714	0.142857142857143	0.214285714285714	0.285714285714286	0.357142857142857	0.428571428571429	0.428571428571429	0.5	0.571428571428571	0.642857142857143	0.714285714285714	0.785714285714286	0.785714285714286	0.857142857142857	0.928571428571429	1	1^n0	0	0	0	0	0	0	0.2	0.2	0.2	0.4	0.4	0.4	0.4	0.4	0.4	0.4	0.4	0.6	1	0.8^n0	0	0	0.0625	0.125	0.25	0.1875	0.3125	0.375	0.4375	0.3125	0.625	0.5	0.5625	0.75	0.6875	0.8125	0.875	0.9375	1	0.8125^n0	0	0	0	0	0	0	0	0	0	0	0.142857142857143	0.285714285714286	0.285714285714286	0.428571428571429	0.428571428571429	0.571428571428571	0.571428571428571	1	0.857142857142857	0.714285714285714^n0	0	0.1	0	0	0.4	0.1	0.3	0.2	0.2	0.3	0.4	0.5	0.5	0.6	0.7	0.6	1	?	0.9	0.8^n0	0	0	0	0	0	0	0	0.1	0.2	0	0.5	0.4	0.3	0.9	0.6	0.7	?	1	0.8	0.8^n0	0	0	0	0.2	0	0.4	0.4	0.4	0.4	0	0.8	0.8	1	0.8	0.8	0.8	?	1	0.8	?^n0	0	0	0.0714285714285714	0.142857142857143	0.214285714285714	0.142857142857143	0.857142857142857	0.285714285714286	0.357142857142857	0.142857142857143	0.428571428571429	0.928571428571429	0.642857142857143	?	1	0.571428571428571	?	0.5	0.785714285714286	?^n0	0	0	0	0	0.2	0.2	0	0.2	0.4	0.2	0.6	1	0.8	?	1	1	?	0.8	1	?^n0	0	0	0	0	0	0	0.333333333333333	0.333333333333333	0.333333333333333	0.333333333333333	0.333333333333333	0.666666666666667	0.333333333333333	0.333333333333333	0.666666666666667	0.333333333333333	?	0.333333333333333	1	?^n0.25	0.125	0.25	0	0	0.25	0	0.125	0	0.125	0.25	0.25	0.875	0.75	0.625	0.75	0.5	0.375	0.75	0.25	1^n0	0.0909090909090909	0.0909090909090909	0	0.0909090909090909	0.272727272727273	0.181818181818182	0	0.0909090909090909	0.0909090909090909	0.272727272727273	0.454545454545455	0.818181818181818	0.909090909090909	0.636363636363636	0.818181818181818	0.636363636363636	0.818181818181818	0.818181818181818	0.545454545454545	1^n0	0	0	0	0.111111111111111	0.444444444444444	0.333333333333333	0.222222222222222	0.222222222222222	0.333333333333333	0.222222222222222	0.555555555555556	0.666666666666667	0.888888888888889	0.888888888888889	0.777777777777778	0.777777777777778	1	0.888888888888889	0.666666666666667	0.777777777777778^n0	0	0	0	0	?	0	0	0	0	0	0	0	0	0.285714285714286	0	0.285714285714286	0.142857142857143	0.428571428571429	1	0.857142857142857^n?	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0.333333333333333	0	0	0.333333333333333	1	0.666666666666667^n0	0	0	0	0	0	0	0	0	0	0	0	0.666666666666667	0.111111111111111	0.222222222222222	0.888888888888889	0.222222222222222	0.333333333333333	0.444444444444444	1	0.777777777777778^n0.166666666666667	0.166666666666667	0.166666666666667	0	0	0.166666666666667	0.166666666666667	0.166666666666667	0.166666666666667	0.166666666666667	0.166666666666667	0.166666666666667	0.833333333333333	0.333333333333333	0.333333333333333	1	0.333333333333333	0.5	0.666666666666667	1	1^n0	0.125	0.125	0	0	0.125	0.125	0.125	0.125	0.125	0.125	0.125	0.875	0.25	0.5	1	0.375	0.75	0.375	1	1^n0.4	0.2	0.6	0	0	0.4	0.4	0.4	0.4	0.4	0.4	0.8	0.6	1	0.8	0.6	0.8	1	0.8	0.6	?^n0	0	0	0	0	0	0	0	0	0	0	0.166666666666667	1	?	0.5	?	0.833333333333333	?	0.333333333333333	0.666666666666667	?^n0	0	0	0	0	0	0	0	0	0	0	0	1	?	0.25	?	0.25	?	0	0.5	?^n0	0.4	0.6	0	0	0	0	0.2	0.2	0.2	0.6	1	?	0	1	?	0.8	1	?	?	?^n?	0	0	0	0	0	0	0	0	0	1	0	0.5	1	1	0.5	0.5	1	0.5	0.5	?^n?	0.285714285714286	0.142857142857143	?	0.285714285714286	?	0.571428571428571	0	0.571428571428571	0.571428571428571	0	?	0.428571428571429	?	?	0.857142857142857	?	?	?	0.714285714285714	1^n?	?	?	0.5	1	?	0.5	?	0	?	?	?	0	0	?	0.5	?	?	?	1	?';
+
+	CHARACTERS = ossification_sequence_categ TAXA = Facultatively_neotenic;
+
+	CHARACTERS = Ontogenetic_type_Matrix TAXA = Facultatively_neotenic;
+	SU  T = 2 C = 1 N = color I = 7;
+	SU  T = 3 C = 1 N = color I = 7;
+	SU  T = 5 C = 1 N = color I = 7;
+	SU  T = 7 C = 1 N = color I = 7;
+	SU  T = 8 C = 1 N = color I = 7;
+	SU  T = 9 C = 1 N = color I = 7;
+	SU  T = 13 C = 1 N = color I = 7;
+
+	SU  C = 2 N = selected B = TRUE;
+	SU  T = 2 C = 2 N = color I = 7;
+	SU  T = 3 C = 2 N = color I = 7;
+	SU  T = 5 C = 2 N = color I = 7;
+	SU  T = 7 C = 2 N = color I = 7;
+	SU  T = 8 C = 2 N = color I = 7;
+	SU  T = 9 C = 2 N = color I = 7;
+	SU  T = 13 C = 2 N = color I = 7;
+
+	CHARACTERS = 'Ossification matrix scaled, no ?, all tx' TAXA = Facultatively_neotenic;
+
+	CHARACTERS = 'Ossifi matrix scaled, no ?, all tx, 6 ch (3CVA1, 3CVA2)' TAXA = Facultatively_neotenic;
+
+	CHARACTERS = 'Ossifi matrix scaled, no ?, all tx2, 6 ch sum CDA 1+2' TAXA = Facultatively_neotenic;
+
+	CHARACTERS = Ossification_matrix_completed_PhyloPars TAXA = Facultatively_neotenic;
+	TEXT   TAXON = 14 CHARACTER = 1 TEXT = All_cells_in_red_have_values_estimated_from_PhyloPars.;
+	SU  T = 14 C = 1 N = color I = 5;
+	SU  T = 15 C = 1 N = color I = 4;
+	TEXT   TAXON = 21 CHARACTER = 1 TEXT = All_cells_in_red_have_values_estimated_from_PhyloPars.;
+	SU  T = 21 C = 1 N = color I = 5;
+
+	SU  T = 13 C = 6 N = color I = 5;
+
+	SU  T = 20 C = 13 N = color I = 5;
+
+	SU  T = 19 C = 14 N = color I = 5;
+
+	SU  T = 7 C = 15 N = color I = 5;
+	SU  T = 8 C = 15 N = color I = 5;
+
+	SU  T = 19 C = 16 N = color I = 5;
+	SU  T = 20 C = 16 N = color I = 5;
+
+	SU  T = 5 C = 18 N = color I = 5;
+	SU  T = 6 C = 18 N = color I = 5;
+	SU  T = 7 C = 18 N = color I = 5;
+	SU  T = 8 C = 18 N = color I = 5;
+	SU  T = 9 C = 18 N = color I = 5;
+	SU  T = 19 C = 18 N = color I = 5;
+
+	SU  T = 4 C = 19 N = color I = 5;
+	SU  T = 20 C = 19 N = color I = 5;
+
+	SU  T = 20 C = 20 N = color I = 5;
+
+	SU  T = 6 C = 21 N = color I = 5;
+	SU  T = 7 C = 21 N = color I = 5;
+	SU  T = 8 C = 21 N = color I = 5;
+	SU  T = 9 C = 21 N = color I = 5;
+	SU  T = 18 C = 21 N = color I = 5;
+	SU  T = 19 C = 21 N = color I = 5;
+	SU  T = 20 C = 21 N = color I = 5;
+	SU  T = 21 C = 21 N = color I = 5;
+
+	CHARACTERS = Ossification_matrix_completed_PhyloPars_scaled TAXA = Facultatively_neotenic;
+	TEXT   TAXON = 14 CHARACTER = 1 TEXT = All_cells_in_red_have_values_estimated_from_PhyloPars.;
+	SU  T = 14 C = 1 N = color I = 5;
+	TEXT   TAXON = 21 CHARACTER = 1 TEXT = All_cells_in_red_have_values_estimated_from_PhyloPars.;
+	SU  T = 21 C = 1 N = color I = 5;
+
+	TEXT   TAXON = 13 CHARACTER = 6 TEXT = All_cells_in_red_have_values_estimated_from_PhyloPars.;
+	SU  T = 13 C = 6 N = color I = 5;
+
+	SU  T = 20 C = 13 N = color I = 5;
+
+	SU  T = 19 C = 14 N = color I = 5;
+
+	SU  T = 7 C = 15 N = color I = 5;
+	SU  T = 8 C = 15 N = color I = 5;
+
+	SU  T = 19 C = 16 N = color I = 5;
+	SU  T = 20 C = 16 N = color I = 5;
+
+	SU  T = 5 C = 18 N = color I = 5;
+	SU  T = 6 C = 18 N = color I = 5;
+	SU  T = 7 C = 18 N = color I = 5;
+	SU  T = 8 C = 18 N = color I = 5;
+	SU  T = 9 C = 18 N = color I = 5;
+	SU  T = 19 C = 18 N = color I = 5;
+
+	SU  T = 4 C = 19 N = color I = 5;
+	SU  T = 20 C = 19 N = color I = 5;
+
+	SU  T = 20 C = 20 N = color I = 5;
+
+	SU  T = 6 C = 21 N = color I = 5;
+	SU  T = 7 C = 21 N = color I = 5;
+	SU  T = 8 C = 21 N = color I = 5;
+	SU  T = 9 C = 21 N = color I = 5;
+	SU  T = 18 C = 21 N = color I = 5;
+	SU  T = 19 C = 21 N = color I = 5;
+	SU  T = 20 C = 21 N = color I = 5;
+	SU  T = 21 C = 21 N = color I = 5;
+
+	ALTTAXNAMES * UNTITLED  =  Ambystoma_texanum Ambystoma_talpoideum Ambystoma_tigrinum Ambystoma_maculatum Ambystoma_mexicanum Salamandra_salamandra Lissotriton_vulgaris Pleurodeles_waltl Notophthalmus_viridescens Onychodactylus_japonicus Ranodon_sibiricus Salamdrella_keyserlingii Dicamptodon_tenebrosus Rhyacotriton_cascadeum Eurycea_bislineata Gyrinophilus_prophyriticus Hemidactylium_scutatum Andrias_japonicus Siren_intermedia Necturus_maculosus Amphiuma_means;
+	ALTTAXNAMES Shorter_names  =  A._texanum A._talpoideum A._tigrinum A._maculatum A._mexicanum Salamandra Lissotriton Pleurodeles Notophthalmus Onychodactylus Ranodon Salamandrella Dicamptodon Rhyacotriton Eurycea Gyrinophilus Hemidactylium Andrias Siren Necturus Amphiuma;
+
+	OPTIONS DEFTYPE =           unord PolyTcount =           MAXSTEPS;
+	TYPESET *    UNTITLED (   CHARACTERS = 'Matrix in file "ossification matrix"' ) =     Squared :     1 -     24;
+TYPESET *    UNTITLED (   CHARACTERS = 'Matrix in file "ossification matrix" scaled' ) =     Squared :     1 -     21;
+TYPESET *    UNTITLED (   CHARACTERS =    ossification_sequence_categ ) =     ord :     1 -     21;
+
+END;
+
+BEGIN LABELS;
+	TAXAGROUPLABEL Facultatively_neotenic COLOR = (RGB 1.0 1.0 0.03529412) ;
+	TAXAGROUPLABEL Obligatorily_neotenic COLOR = (RGB 1.0 0.03529412 0.03529412) ;
+	TAXAGROUPLABEL Metamorphic COLOR = (RGB 0.03529412 0.03529412 0.03529412) ;
+
+
+END;
+
+BEGIN SETS;
+	TAXPARTITION * UNTITLED  =  Metamorphic :  1 4 6 10 -  12 14 -  17, Facultatively_neotenic :  2 -  3 5 7 -  9 13, Obligatorily_neotenic :  18 -  21;
+
+END;
+
+BEGIN MESQUITECHARMODELS;
+	ProbModelSet * UNTITLED  (CHARACTERS = Ossification_matrix)  =  'Mk1 (est.)':  1 -  24;
+ProbModelSet * UNTITLED  (CHARACTERS = Ossification_matrix_scaled)  =  Brownian_default:  1 -  22;
+ProbModelSet * UNTITLED  (CHARACTERS = ossification_sequence_categ)  =  'Mk1 (est.)':  1 -  21;
+ProbModelSet * UNTITLED  (CHARACTERS = Ontogenetic_type_Matrix)  =  'Mk1 (est.)':  1 -  2;
+ProbModelSet * UNTITLED  (CHARACTERS = 'Ossification matrix scaled, no ?, all tx')  =  'PDSIM_Brownian default':  1 -  11;
+ProbModelSet * UNTITLED  (CHARACTERS = 'Ossifi matrix scaled, no ?, all tx, 6 ch (3CVA1, 3CVA2)')  =  'PDSIM_Brownian default':  1 -  6;
+ProbModelSet * UNTITLED  (CHARACTERS = 'Ossifi matrix scaled, no ?, all tx2, 6 ch sum CDA 1+2')  =  'PDSIM_Brownian default':  1 -  6;
+ProbModelSet * UNTITLED  (CHARACTERS = Ossification_matrix_completed_PhyloPars)  =  'PDSIM_Brownian default':  1 -  21;
+ProbModelSet * UNTITLED  (CHARACTERS = Ossification_matrix_completed_PhyloPars_scaled)  =  'PDSIM_Brownian default':  1 -  21;
+END;
+
+BEGIN MacClade;
+	Version 4.0 84;
+	LastModified -1072894127;
+	FileSettings editor '0' '0' '1' '1';
+	Singles 000;
+	Editor 0001100111111110010001001 '0' '24'            Geneva '9' '104' '1'            all;
+	EditorPosition '548' '119' '195' '895';
+	TreeWindowPosition '46' '6' '723' '974';
+	ListWindow Characters closed Geneva '9' '50' '10' '129' '352'            000;
+	ListWindow Taxa closed Geneva '9' '50' '10' '449' '278'            100000;
+	ListWindow Trees closed Geneva '9' '378' '563' '129' '392';
+	ListWindow TypeSets closed Geneva '9' '50' '10' '276' '490';
+	ListWindow WtSets closed Geneva '9' '50' '10' '276' '490';
+	ListWindow ExSets closed Geneva '9' '50' '10' '276' '490';
+	ListWindow CharSets closed Geneva '9' '52' '62' '129' '181';
+	ListWindow TaxSets closed Geneva '9' '50' '10' '276' '490';
+	ListWindow CharPartitions closed Geneva '9' '50' '10' '276' '490';
+	ListWindow CharPartNames closed Geneva '9' '50' '10' '276' '490';
+	ListWindow WtSets closed Geneva '9' '50' '10' '276' '490';
+	ChartWindowPosition '52' '30' '686' '964';
+	StateNamesSymbols closed Geneva '9' '10' '50' '30' '148' '220';
+	WindowOrder Data;
+	OtherSymbols & /            00 ? -;
+	Correlation '0' '0' '1000' '0' '0'            10011010;
+	Salmo 00000001;
+	EditorFile '2';
+	ExportHTML _ MOSS '100'            110000;
+	PrettyPrint 10;
+	EditorToolsPosition '579' '69' '115' '165';
+	TreeToolsPosition '568' '67' '126' '138';
+	TreeWindowProgram 10;
+	TreeWindow 0000;
+	Continuous '0' '3'            1;
+	Calculations 0000001;
+	SummaryMode '0' '0'            0;
+	Charts Geneva '9' (           normal )            0010;
+	NexusOptions '0' '0' '50'            001011011;
+	TipLabel '1';
+	TreeFont Geneva '9' (           normal );
+	TreeShape 1.0 1.0 0100;
+	TraceLabels 0101;
+	ChartColors '0' '0' '65535' '9' '0'            1;
+	ChartBiggestSpot 1;
+	ChartPercent 10;
+	ChartBarWidth '10'            1;
+	ChartVerticalAxis 10101;
+	ChartMinMax '0';
+	TraceAllChangesDisplay '1'            1;
+	BarsOnBranchesDisplay '0' '0' '60000' '10000' '10000' '10000' '10000' '60000' '65000' '65000' '65000' '6' '1'            0000101;
+	ContinuousBranchLabels 0;
+	AllStatesBranchLabels 1;
+	IndexNotation '2'            1;
+	PrintTree 10.00 '2' '2' '2' '2' '2' '2' '2' '2' '2' '2' '2'            Geneva '9' (           normal )            Geneva '10' (           normal )            Geneva '9' (           normal )            Geneva '9' (           normal )            Geneva '9' (           bold )            Geneva '9' (           normal )            Geneva '9' (           normal ) '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '1' '1' '1' '1' '0' '15' '-39' '4' '-40' '0' '1' '2' '1' '8' '0' '0' '0' '2'            1000111000000000000100000111000;
+	MatchChar 00 .;
+	EntryInterpretation 01;
+	ColorOptions 00;
+	TreeTools '0' '5' '4' '0' '10' '4' '0'            00100111111101110;
+	EditorTools '0' '0' '0' '1000' '0' '0' '6' '3' '0'            100000101110001;
+	PairAlign '2' '2' '3' '2' '1' '1' '2' '1' '3'            1010;
+	BothTools '1';
+
+END;
+BEGIN ASSUMPTIONS;
+	TYPESET * UNTITLED  (CHARACTERS = Ossification_matrix)  =  Squared:  1 -  24;
+TYPESET * UNTITLED  (CHARACTERS = Ossification_matrix_scaled)  =  Squared:  1 -  22;
+TYPESET * UNTITLED  (CHARACTERS = ossification_sequence_categ)  =  ord:  1 -  21;
+TYPESET * UNTITLED  (CHARACTERS = Ontogenetic_type_Matrix)  =  unord:  1 -  2;
+TYPESET * UNTITLED  (CHARACTERS = 'Ossification matrix scaled, no ?, all tx')  =  Squared:  1 -  11;
+TYPESET * UNTITLED  (CHARACTERS = 'Ossifi matrix scaled, no ?, all tx, 6 ch (3CVA1, 3CVA2)')  =  Squared:  1 -  6;
+TYPESET * UNTITLED  (CHARACTERS = 'Ossifi matrix scaled, no ?, all tx2, 6 ch sum CDA 1+2')  =  Squared:  1 -  6;
+TYPESET * UNTITLED  (CHARACTERS = Ossification_matrix_completed_PhyloPars)  =  Squared:  1 -  21;
+TYPESET * UNTITLED  (CHARACTERS = Ossification_matrix_completed_PhyloPars_scaled)  =  Squared:  1 -  21;
+
+END;
+
+Begin MESQUITE;
+		MESQUITESCRIPTVERSION 2;
+		TITLE AUTO;
+		tell ProjectCoordinator;
+		timeSaved 1390174785198;
+		getEmployee #mesquite.minimal.ManageTaxa.ManageTaxa;
+		tell It;
+			setID 0 748902243685140586;
+		endTell;
+		getEmployee #mesquite.charMatrices.ManageCharacters.ManageCharacters;
+		tell It;
+			setID 0 5223118329867169613;
+			mqVersion 275;
+			checksumv 0 3 889373054 null  numChars 24   numItems 1   min 0.0   max 17.0   sumSquares 10196.0   NumFiles 1 NumMatrices 9;
+			mqVersion;
+			setID 1 5057425604229570423;
+			mqVersion 275;
+			checksumv 1 3 3790578824 null  numChars 22   numItems 1   min 0.0   max 2.0   sumSquares 123.63800669613578   NumFiles 1 NumMatrices 9;
+			mqVersion;
+			setID 2 6580476207466648454;
+			mqVersion 275;
+			checksumv 2 3 136930075 null  getNumChars 21 numChars 21 getNumTaxa 21 numTaxa 21   short false   bits 140728898420736   states 140728898420736   sumSquaresStatesOnly 0.0 sumSquares 0.0 longCompressibleToShort false usingShortMatrix false   NumFiles 1 NumMatrices 9;
+			mqVersion;
+			setID 3 6268869029031325891;
+			tell It;
+				setSelected  2;
+				attachments ;
+			endTell;
+			mqVersion 275;
+			checksumv 3 3 66567361 null  getNumChars 2 numChars 2 getNumTaxa 21 numTaxa 21   short true   bits 15   states 15   sumSquaresStatesOnly 408.0 sumSquares 408.0 longCompressibleToShort false usingShortMatrix true   NumFiles 1 NumMatrices 9;
+			mqVersion;
+			setID 4 3277551657204578341;
+			mqVersion 275;
+			checksumv 4 3 374432083 null  numChars 11   numItems 1   min 0.0   max 1.0   sumSquares 21.467983088590504   NumFiles 1 NumMatrices 9;
+			mqVersion;
+			setID 5 1051896559813976760;
+			mqVersion 275;
+			checksumv 5 3 1359712568 null  numChars 6   numItems 1   min 0.0   max 1.0   sumSquares 18.81362476808906   NumFiles 1 NumMatrices 9;
+			mqVersion;
+			setID 6 6461038617637913256;
+			mqVersion 275;
+			checksumv 6 3 1351845176 null  numChars 6   numItems 1   min 0.0   max 1.0   sumSquares 14.028289377294387   NumFiles 1 NumMatrices 9;
+			mqVersion;
+			setID 7 4711159622990754565;
+			mqVersion 275;
+			checksumv 7 3 1546977156 null  numChars 21   numItems 1   min 0.0   max 16.0   sumSquares 9358.0   NumFiles 1 NumMatrices 9;
+			mqVersion;
+			setID 8 6886705564431225126;
+			mqVersion 275;
+			checksumv 8 3 696612787 null  numChars 21   numItems 1   min 0.0   max 1.0   sumSquares 101.20944897659857   NumFiles 1 NumMatrices 9;
+			mqVersion;
+		endTell;
+		getWindow;
+		tell It;
+			suppress;
+			setResourcesState false false 73;
+			setPopoutState 400;
+			setExplanationSize 0;
+			setAnnotationSize 0;
+			setFontIncAnnot 0;
+			setFontIncExp 0;
+			setSize 1020 627;
+			setLocation 874 432;
+			setFont SanSerif;
+			setFontSize 10;
+			getToolPalette;
+			tell It;
+			endTell;
+			desuppress;
+		endTell;
+		getEmployee  #mesquite.minimal.ManageTaxa.ManageTaxa;
+		tell It;
+			showTaxa #748902243685140586 #mesquite.lists.TaxonList.TaxonList;
+			tell It;
+				setTaxa #748902243685140586;
+				getWindow;
+				tell It;
+					newAssistant  #mesquite.lists.DefaultTaxaOrder.DefaultTaxaOrder;
+					newAssistant  #mesquite.lists.TaxonListCurrPartition.TaxonListCurrPartition;
+					newAssistant  #mesquite.lists.TaxonListArchivedName.TaxonListArchivedName;
+					getTable;
+					tell It;
+						rowNamesWidth 178;
+						columnWidth 1 84;
+					endTell;
+					setExplanationSize 30;
+					setAnnotationSize 20;
+					setFontIncAnnot 0;
+					setFontIncExp 0;
+					setSize 947 560;
+					setLocation 874 432;
+					setFont SanSerif;
+					setFontSize 10;
+					getToolPalette;
+					tell It;
+						setTool mesquite.lists.TaxonList.TaxonListWindow.ibeam;
+					endTell;
+				endTell;
+				showWindow;
+				getEmployee #mesquite.lists.ColorTaxon.ColorTaxon;
+				tell It;
+					setColor Black;
+					removeColor off;
+				endTell;
+				getEmployee #mesquite.lists.TaxonListAnnotPanel.TaxonListAnnotPanel;
+				tell It;
+					togglePanel off;
+				endTell;
+			endTell;
+		endTell;
+		getEmployee  #mesquite.trees.ManageTrees.ManageTrees;
+		tell It;
+			showTrees 0 #mesquite.lists.TreesList.TreesList;
+			tell It;
+				setTreeBlock 1;
+				getWindow;
+				tell It;
+					newAssistant  #mesquite.lists.NumForTreeList.NumForTreeList;
+				tell It;
+					suppress;
+					setValueTask  #mesquite.trees.NumberOfTaxa.NumberOfTaxa;
+					desuppress;
+				endTell;
+					newAssistant  #mesquite.lists.TreeListRooted.TreeListRooted;
+					newAssistant  #mesquite.lists.TreeListPolys.TreeListPolys;
+					newAssistant  #mesquite.lists.TreeListPolyAssumption.TreeListPolyAssumption;
+					getTable;
+					tell It;
+						rowNamesWidth 398;
+					endTell;
+					setExplanationSize 30;
+					setAnnotationSize 20;
+					setFontIncAnnot 0;
+					setFontIncExp 0;
+					setSize 947 560;
+					setLocation 874 432;
+					setFont SanSerif;
+					setFontSize 10;
+					getToolPalette;
+					tell It;
+						setTool mesquite.lists.TreesList.TreesListWindow.arrow;
+					endTell;
+				endTell;
+				showWindow;
+			endTell;
+		endTell;
+		getEmployee  #mesquite.trees.BasicTreeWindowCoord.BasicTreeWindowCoord;
+		tell It;
+			makeTreeWindow #748902243685140586  #mesquite.trees.BasicTreeWindowMaker.BasicTreeWindowMaker;
+			tell It;
+				suppressEPCResponse;
+				setTreeSource  #mesquite.trees.StoredTrees.StoredTrees;
+				tell It;
+					setTreeBlock 1;
+					toggleUseWeights off;
+				endTell;
+				setAssignedID 552.1104741758359.8058094348331611336;
+				getTreeWindow;
+				tell It;
+					setExplanationSize 30;
+					setAnnotationSize 20;
+					setFontIncAnnot 0;
+					setFontIncExp 0;
+					setSize 947 560;
+					setLocation 874 432;
+					setFont SanSerif;
+					setFontSize 10;
+					getToolPalette;
+					tell It;
+						setTool mesquite.trees.SelectTaxaInClade.SelectTaxaToolExtra.SelectTaxaInClade;
+					endTell;
+					getTreeDrawCoordinator #mesquite.trees.BasicTreeDrawCoordinator.BasicTreeDrawCoordinator;
+				tell It;
+					suppress;
+					setTreeDrawer  #mesquite.stratigraphictools.STSquareTree.STSquareTree;
+					tell It;
+						setEdgeWidth 6;
+						orientUp;
+						getEmployee #mesquite.stratigraphictools.NodeLocsPaleo.NodeLocsPaleo;
+						tell It;
+							stretchToggle off;
+							branchLengthsToggle on;
+							toggleScale off;
+							toggleAdjustScale on;
+							toggleAdjustScale on;
+							toggleFillScale on;
+							toggleExtendScale on;
+							toggleMagnetExt off;
+							toggleMagnetInt off;
+							toggleCenter on;
+							toggleEven off;
+							namesAngle ?;
+							getEmployee #mesquite.stratigraphictools.ScaleDataWindowCoord.ScaleDataWindowCoord;
+							tell It;
+								showDataWindow #9129816319396664803 #mesquite.stratigraphictools.ScaleDataWindowMaker.ScaleDataWindowMaker;
+								tell It;
+									getWindow;
+									tell It;
+										scaleFile 'Quaternary-Givetian Scale 2013 col cor.csv';
+									endTell;
+									showWindow;
+									getEmployee #mesquite.stratigraphictools.ColorScaleCells.ColorScaleCells;
+									tell It;
+										setColor Red;
+										removeColor off;
+									endTell;
+								endTell;
+							endTell;
+						endTell;
+					endTell;
+					setBackground White;
+					setBranchColor Black;
+					showNodeNumbers off;
+					showBranchColors on;
+					labelBranchLengths off;
+					centerBrLenLabels on;
+					showBrLensUnspecified on;
+					showBrLenLabelsOnTerminals on;
+					setBrLenLabelColor 0 0 255;
+					setNumBrLenDecimals 6;
+					desuppress;
+					getEmployee #mesquite.trees.BasicDrawTaxonNames.BasicDrawTaxonNames;
+					tell It;
+						setFontSize 18;
+						setColor Black;
+						toggleColorPartition on;
+						toggleShadePartition off;
+						toggleShowFootnotes on;
+						toggleNodeLabels on;
+						toggleCenterNodeNames off;
+						toggleShowNames on;
+						namesAngle ?;
+					endTell;
+				endTell;
+					setTreeNumber 7;
+					setDrawingSizeMode 1;
+					toggleLegendFloat on;
+					toggleTextOnTree off;
+					showWindow;
+					newAssistant  #mesquite.trees.TreeLegendMaker.TreeLegendMaker;
+				tell It;
+					setOffsetsX 4;
+					setOffsetsY 4;
+					getLegendsVector;
+					tell It;
+					distributeCommands;
+						setBounds 4 4 300 57;
+						setOffsetX 4;
+						setOffsetY 4;
+					endDistributeCommands;
+					endTell;
+					newLegendItemNoCalc  #mesquite.trees.TreeValueUsingMatrix.TreeValueUsingMatrix;
+					tell It;
+						getEmployee #mesquite.parsimony.TreelengthForMatrix.TreelengthForMatrix;
+						tell It;
+							getEmployee #mesquite.parsimony.ParsCharSteps.ParsCharSteps;
+							tell It;
+								setModelSource  #mesquite.parsimony.CurrentParsModels.CurrentParsModels;
+								getEmployee #mesquite.parsimony.ParsimonySquared.ParsimonySquared;
+								tell It;
+									toggleWeight on;
+								endTell;
+							endTell;
+						endTell;
+						getEmployee #mesquite.charMatrices.CharMatrixCoordIndep.CharMatrixCoordIndep;
+						tell It;
+							setCharacterSource #mesquite.charMatrices.StoredMatrices.StoredMatrices;
+							tell It;
+								setDataSet #6580476207466648454;
+							endTell;
+						endTell;
+					endTell;
+					calculate;
+				endTell;
+					newAssistant  #mesquite.ancstates.TraceCharacterHistory.TraceCharacterHistory;
+				tell It;
+					suspend ;
+					setDisplayMode  #mesquite.ancstates.ShadeStatesOnTree.ShadeStatesOnTree;
+					tell It;
+						toggleLabels off;
+						toggleGray off;
+					endTell;
+					setHistorySource  #mesquite.ancstates.RecAncestralStates.RecAncestralStates;
+					tell It;
+						getCharacterSource  #mesquite.charMatrices.CharSrcCoordObed.CharSrcCoordObed;
+						tell It;
+							setCharacterSource #mesquite.charMatrices.StoredCharacters.StoredCharacters;
+							tell It;
+								setDataSet #6268869029031325891;
+							endTell;
+						endTell;
+						setMethod  #mesquite.parsimony.ParsAncestralStates.ParsAncestralStates;
+						tell It;
+							setModelSource  #mesquite.parsimony.CurrentParsModels.CurrentParsModels;
+							toggleMPRsMode off;
+						endTell;
+					endTell;
+					setCharacter 2;
+					setMapping 1;
+					toggleShowLegend on;
+					toggleGray off;
+					toggleWeights on;
+					setInitialOffsetX 49;
+					setInitialOffsetY -391;
+					setLegendWidth 142;
+					setLegendHeight 129;
+					resume ;
+					modifyColors  2 1  255 246 26 2 2  199 4 4;
+				endTell;
+				endTell;
+				desuppressEPCResponse;
+				getEmployee #mesquite.trees.ColorBranches.ColorBranches;
+				tell It;
+					setColor Red;
+					removeColor off;
+				endTell;
+				getEmployee #mesquite.ornamental.BranchNotes.BranchNotes;
+				tell It;
+					setAlwaysOn off;
+				endTell;
+				getEmployee #mesquite.ornamental.ColorTreeByPartition.ColorTreeByPartition;
+				tell It;
+					colorByPartition off;
+				endTell;
+				getEmployee #mesquite.ornamental.DrawTreeAssocDoubles.DrawTreeAssocDoubles;
+				tell It;
+					setOn on;
+					setDigits 4;
+					writeAsPercentage off;
+					toggleCentred on;
+					toggleHorizontal on;
+					toggleWhiteEdges on;
+					setFontSize 10;
+					setOffset 0  0;
+				endTell;
+				getEmployee #mesquite.ornamental.DrawTreeAssocStrings.DrawTreeAssocStrings;
+				tell It;
+					setOn on;
+					toggleCentred on;
+					toggleHorizontal on;
+					setFontSize 10;
+					setOffset 0  0;
+				endTell;
+				getEmployee #mesquite.trees.TreeInfoValues.TreeInfoValues;
+				tell It;
+					panelOpen false;
+				endTell;
+			endTell;
+			makeTreeWindow #748902243685140586  #mesquite.trees.BasicTreeWindowMaker.BasicTreeWindowMaker;
+			tell It;
+				suppressEPCResponse;
+				setTreeSource  #mesquite.trees.StoredTrees.StoredTrees;
+				tell It;
+					setTreeBlock 1;
+					toggleUseWeights off;
+				endTell;
+				setAssignedID 3340.1388178128376.2695777631620774748;
+				getTreeWindow;
+				tell It;
+					setExplanationSize 30;
+					setAnnotationSize 20;
+					setFontIncAnnot 0;
+					setFontIncExp 0;
+					setSize 947 560;
+					setLocation 874 432;
+					setFont SanSerif;
+					setFontSize 10;
+					getToolPalette;
+					tell It;
+					endTell;
+					getTreeDrawCoordinator #mesquite.trees.BasicTreeDrawCoordinator.BasicTreeDrawCoordinator;
+				tell It;
+					suppress;
+					setTreeDrawer  #mesquite.cont.PlotTree.PlotTree;
+					tell It;
+						setNodeLocs  #mesquite.cont.NodeLocs2DPlot.NodeLocs2DPlot;
+						tell It;
+							hide;
+							setAxis  #mesquite.cont.MapContinuous.MapContinuous;
+							tell It;
+								getCharacterSource  #mesquite.charMatrices.CharSrcCoordObed.CharSrcCoordObed;
+								tell It;
+									setCharacterSource #mesquite.rhetenor.CharFromOrdinations.CharFromOrdinations;
+									tell It;
+										getCharacterSource #mesquite.charMatrices.CharMatrixCoordIndep.CharMatrixCoordIndep;
+										tell It;
+											setCharacterSource #mesquite.charMatrices.StoredMatrices.StoredMatrices;
+											tell It;
+												setDataSet #3277551657204578341;
+											endTell;
+										endTell;
+										setOrdinator #mesquite.rhetenor.EvolutionaryPCA.EvolutionaryPCA;
+										tell It;
+											getEmployee #mesquite.trees.TreeOfContext.TreeOfContext;
+											tell It;
+												setContextID 3340.1388178128376.2695777631620774748;
+											endTell;
+										endTell;
+										setItem 0;
+									endTell;
+								endTell;
+								setCharacter 2;
+								setItem 0;
+								getEmployee #mesquite.parsimony.ParsAncestralStates.ParsAncestralStates;
+								tell It;
+									setModelSource  #mesquite.parsimony.CurrentParsModels.CurrentParsModels;
+									tell It;
+										setDefaultModel 15;
+									endTell;
+									toggleMPRsMode off;
+									getEmployee #mesquite.parsimony.ParsimonySquared.ParsimonySquared;
+									tell It;
+										toggleWeight on;
+									endTell;
+								endTell;
+							endTell;
+							toggleShowLegend on;
+							setCurrentX 1;
+							setCurrentY 2;
+							show;
+						endTell;
+						setSpotDiameter 12;
+						toggleShowTerminals on;
+						toggleShowInternals on;
+						toggleShowTree on;
+					endTell;
+					setBackground White;
+					setBranchColor Black;
+					showNodeNumbers off;
+					showBranchColors on;
+					labelBranchLengths off;
+					centerBrLenLabels on;
+					showBrLensUnspecified on;
+					showBrLenLabelsOnTerminals on;
+					setBrLenLabelColor 0 0 255;
+					setNumBrLenDecimals 6;
+					desuppress;
+					getEmployee #mesquite.trees.BasicDrawTaxonNames.BasicDrawTaxonNames;
+					tell It;
+						setFontSize 14;
+						setColor Black;
+						toggleColorPartition off;
+						toggleShadePartition off;
+						toggleShowFootnotes on;
+						toggleNodeLabels on;
+						toggleCenterNodeNames off;
+						toggleShowNames on;
+						namesAngle ?;
+					endTell;
+				endTell;
+					setTreeNumber 7;
+					setDrawingSizeMode 1;
+					toggleLegendFloat on;
+					toggleTextOnTree off;
+					showWindow;
+					newAssistant  #mesquite.ancstates.TraceCharacterHistory.TraceCharacterHistory;
+				tell It;
+					suspend ;
+					setDisplayMode  #mesquite.ancstates.ShadeStatesOnTree.ShadeStatesOnTree;
+					tell It;
+						toggleLabels off;
+						toggleGray off;
+					endTell;
+					setHistorySource  #mesquite.ancstates.RecAncestralStates.RecAncestralStates;
+					tell It;
+						getCharacterSource  #mesquite.charMatrices.CharSrcCoordObed.CharSrcCoordObed;
+						tell It;
+							setCharacterSource #mesquite.charMatrices.StoredCharacters.StoredCharacters;
+							tell It;
+								setDataSet #6268869029031325891;
+							endTell;
+						endTell;
+						setMethod  #mesquite.parsimony.ParsAncestralStates.ParsAncestralStates;
+						tell It;
+							setModelSource  #mesquite.parsimony.CurrentParsModels.CurrentParsModels;
+							toggleMPRsMode off;
+						endTell;
+					endTell;
+					setCharacter 2;
+					setMapping 1;
+					toggleShowLegend on;
+					toggleGray off;
+					toggleWeights on;
+					setInitialOffsetX 668;
+					setInitialOffsetY -540;
+					setLegendWidth 142;
+					setLegendHeight 129;
+					resume ;
+					modifyColors  2 0  5 0 1 2 1  255 246 20 2 2  214 4 4;
+				endTell;
+				endTell;
+				desuppressEPCResponse;
+				getEmployee #mesquite.trees.ColorBranches.ColorBranches;
+				tell It;
+					setColor Red;
+					removeColor off;
+				endTell;
+				getEmployee #mesquite.ornamental.BranchNotes.BranchNotes;
+				tell It;
+					setAlwaysOn off;
+				endTell;
+				getEmployee #mesquite.ornamental.ColorTreeByPartition.ColorTreeByPartition;
+				tell It;
+					colorByPartition off;
+				endTell;
+				getEmployee #mesquite.ornamental.DrawTreeAssocDoubles.DrawTreeAssocDoubles;
+				tell It;
+					setOn on;
+					toggleShow consensusFrequency;
+					setDigits 4;
+					writeAsPercentage off;
+					toggleCentred on;
+					toggleHorizontal on;
+					toggleWhiteEdges on;
+					setFontSize 10;
+					setOffset 0  0;
+				endTell;
+				getEmployee #mesquite.ornamental.DrawTreeAssocStrings.DrawTreeAssocStrings;
+				tell It;
+					setOn on;
+					toggleCentred on;
+					toggleHorizontal on;
+					setFontSize 10;
+					setOffset 0  0;
+				endTell;
+				getEmployee #mesquite.trees.TreeInfoValues.TreeInfoValues;
+				tell It;
+					panelOpen false;
+				endTell;
+			endTell;
+		endTell;
+		getEmployee  #mesquite.charMatrices.BasicDataWindowCoord.BasicDataWindowCoord;
+		tell It;
+			showDataWindow #5057425604229570423 #mesquite.charMatrices.BasicDataWindowMaker.BasicDataWindowMaker;
+			tell It;
+				getWindow;
+				tell It;
+					getTable;
+					tell It;
+						rowNamesWidth 157;
+					endTell;
+					setExplanationSize 30;
+					setAnnotationSize 20;
+					setFontIncAnnot 0;
+					setFontIncExp 0;
+					setSize 947 560;
+					setLocation 874 432;
+					setFont SanSerif;
+					setFontSize 10;
+					getToolPalette;
+					tell It;
+						setTool mesquite.charMatrices.BasicDataWindowMaker.BasicDataWindow.arrow;
+					endTell;
+					setTool mesquite.charMatrices.BasicDataWindowMaker.BasicDataWindow.arrow;
+					colorCells  #mesquite.charMatrices.NoColor.NoColor;
+					colorRowNames  #mesquite.charMatrices.ColorCells.ColorCells;
+				tell It;
+					setColor Red;
+					removeColor off;
+				endTell;
+					colorColumnNames  #mesquite.charMatrices.CharGroupColor.CharGroupColor;
+					colorText  #mesquite.charMatrices.NoColor.NoColor;
+					setBackground White;
+					toggleShowNames on;
+					toggleShowTaxonNames on;
+					toggleTight off;
+					toggleThinRows off;
+					toggleShowChanges on;
+					toggleSeparateLines off;
+					toggleShowStates on;
+					toggleAutoWCharNames on;
+					toggleAutoTaxonNames off;
+					toggleShowDefaultCharNames off;
+					toggleConstrainCW on;
+					setColumnWidth 70;
+					toggleBirdsEye off;
+					toggleShowPaleGrid off;
+					toggleShowPaleCellColors off;
+					togglePaleInapplicable on;
+					toggleShowBoldCellText off;
+					toggleAllowAutosize on;
+					toggleColorsPanel off;
+					toggleLinkedScrolling on;
+					toggleScrollLinkedTables off;
+				endTell;
+				showWindow;
+				getEmployee #mesquite.charMatrices.ColorByState.ColorByState;
+				tell It;
+					setStateLimit 9;
+					toggleUniformMaximum on;
+				endTell;
+				getEmployee #mesquite.charMatrices.AnnotPanel.AnnotPanel;
+				tell It;
+					togglePanel off;
+				endTell;
+				getEmployee #mesquite.charMatrices.CharReferenceStrip.CharReferenceStrip;
+				tell It;
+					showStrip off;
+				endTell;
+				getEmployee #mesquite.charMatrices.SelSummaryStrip.SelSummaryStrip;
+				tell It;
+					showStrip off;
+				endTell;
+				getEmployee #mesquite.stratigraphictools.ColorScaleCells.ColorScaleCells;
+				tell It;
+					setColor Red;
+					removeColor off;
+				endTell;
+				getEmployee #mesquite.cont.ItemsEditorForInfoPanel.ItemsEditorForInfoPanel;
+				tell It;
+					panelOpen false;
+				endTell;
+			endTell;
+			showDataWindow #5223118329867169613 #mesquite.charMatrices.BasicDataWindowMaker.BasicDataWindowMaker;
+			tell It;
+				getWindow;
+				tell It;
+					setExplanationSize 30;
+					setAnnotationSize 20;
+					setFontIncAnnot 0;
+					setFontIncExp 0;
+					setSize 947 560;
+					setLocation 874 432;
+					setFont SanSerif;
+					setFontSize 10;
+					getToolPalette;
+					tell It;
+						setTool mesquite.charMatrices.ColorCells.ColorCells.ColorCells;
+					endTell;
+					setTool mesquite.charMatrices.ColorCells.ColorCells.ColorCells;
+					colorCells  #mesquite.charMatrices.ColorCells.ColorCells;
+				tell It;
+					setColor Red;
+					removeColor off;
+				endTell;
+					colorRowNames  #mesquite.charMatrices.TaxonGroupColor.TaxonGroupColor;
+					colorColumnNames  #mesquite.charMatrices.CharGroupColor.CharGroupColor;
+					colorText  #mesquite.charMatrices.NoColor.NoColor;
+					setBackground White;
+					toggleShowNames on;
+					toggleShowTaxonNames on;
+					toggleTight off;
+					toggleThinRows off;
+					toggleShowChanges on;
+					toggleSeparateLines off;
+					toggleShowStates on;
+					toggleAutoWCharNames on;
+					toggleAutoTaxonNames off;
+					toggleShowDefaultCharNames off;
+					toggleConstrainCW on;
+					setColumnWidth 70;
+					toggleBirdsEye off;
+					toggleShowPaleGrid off;
+					toggleShowPaleCellColors off;
+					togglePaleInapplicable on;
+					toggleShowBoldCellText off;
+					toggleAllowAutosize on;
+					toggleColorsPanel off;
+					toggleLinkedScrolling on;
+					toggleScrollLinkedTables off;
+				endTell;
+				hideWindow;
+				getEmployee #mesquite.charMatrices.ColorByState.ColorByState;
+				tell It;
+					setStateLimit 9;
+					toggleUniformMaximum on;
+				endTell;
+				getEmployee #mesquite.charMatrices.AnnotPanel.AnnotPanel;
+				tell It;
+					togglePanel off;
+				endTell;
+				getEmployee #mesquite.charMatrices.CharReferenceStrip.CharReferenceStrip;
+				tell It;
+					showStrip off;
+				endTell;
+				getEmployee #mesquite.charMatrices.SelSummaryStrip.SelSummaryStrip;
+				tell It;
+					showStrip off;
+				endTell;
+				getEmployee #mesquite.stratigraphictools.ColorScaleCells.ColorScaleCells;
+				tell It;
+					setColor Red;
+					removeColor off;
+				endTell;
+				getEmployee #mesquite.cont.ItemsEditorForInfoPanel.ItemsEditorForInfoPanel;
+				tell It;
+					panelOpen false;
+				endTell;
+			endTell;
+			showDataWindow #6580476207466648454 #mesquite.charMatrices.BasicDataWindowMaker.BasicDataWindowMaker;
+			tell It;
+				getWindow;
+				tell It;
+					setExplanationSize 30;
+					setAnnotationSize 20;
+					setFontIncAnnot 0;
+					setFontIncExp 0;
+					setSize 947 560;
+					setLocation 874 432;
+					setFont SanSerif;
+					setFontSize 10;
+					getToolPalette;
+					tell It;
+					endTell;
+					setTool mesquite.charMatrices.BasicDataWindowMaker.BasicDataWindow.arrow;
+					colorCells  #mesquite.charMatrices.NoColor.NoColor;
+					colorRowNames  #mesquite.charMatrices.TaxonGroupColor.TaxonGroupColor;
+					colorColumnNames  #mesquite.charMatrices.CharGroupColor.CharGroupColor;
+					colorText  #mesquite.charMatrices.NoColor.NoColor;
+					setBackground White;
+					toggleShowNames on;
+					toggleShowTaxonNames on;
+					toggleTight off;
+					toggleThinRows off;
+					toggleShowChanges on;
+					toggleSeparateLines off;
+					toggleShowStates on;
+					toggleAutoWCharNames on;
+					toggleAutoTaxonNames off;
+					toggleShowDefaultCharNames off;
+					toggleConstrainCW on;
+					toggleBirdsEye off;
+					toggleShowPaleGrid off;
+					toggleShowPaleCellColors off;
+					togglePaleInapplicable on;
+					toggleShowBoldCellText off;
+					toggleAllowAutosize on;
+					toggleColorsPanel off;
+					toggleDiagonal on;
+					setDiagonalHeight 80;
+					toggleLinkedScrolling on;
+					toggleScrollLinkedTables off;
+				endTell;
+				getWindow;
+				tell It;
+					forceAutosize;
+				endTell;
+				hideWindow;
+				getEmployee #mesquite.charMatrices.ColorByState.ColorByState;
+				tell It;
+					setStateLimit 9;
+					toggleUniformMaximum on;
+				endTell;
+				getEmployee #mesquite.charMatrices.ColorCells.ColorCells;
+				tell It;
+					setColor Red;
+					removeColor off;
+				endTell;
+				getEmployee #mesquite.categ.StateNamesStrip.StateNamesStrip;
+				tell It;
+					showStrip off;
+				endTell;
+				getEmployee #mesquite.charMatrices.AnnotPanel.AnnotPanel;
+				tell It;
+					togglePanel off;
+				endTell;
+				getEmployee #mesquite.charMatrices.CharReferenceStrip.CharReferenceStrip;
+				tell It;
+					showStrip off;
+				endTell;
+				getEmployee #mesquite.charMatrices.QuickKeySelector.QuickKeySelector;
+				tell It;
+					autotabOff;
+				endTell;
+				getEmployee #mesquite.charMatrices.SelSummaryStrip.SelSummaryStrip;
+				tell It;
+					showStrip off;
+				endTell;
+				getEmployee #mesquite.stratigraphictools.ColorScaleCells.ColorScaleCells;
+				tell It;
+					setColor Red;
+					removeColor off;
+				endTell;
+				getEmployee #mesquite.categ.SmallStateNamesEditor.SmallStateNamesEditor;
+				tell It;
+					panelOpen true;
+				endTell;
+			endTell;
+			showDataWindow #6268869029031325891 #mesquite.charMatrices.BasicDataWindowMaker.BasicDataWindowMaker;
+			tell It;
+				getWindow;
+				tell It;
+					popAsTile false;
+					popOut;
+					setExplanationSize 30;
+					setAnnotationSize 20;
+					setFontIncAnnot 0;
+					setFontIncExp 0;
+					setSize 580 523;
+					setLocation 154 156;
+					setFont SanSerif;
+					setFontSize 10;
+					getToolPalette;
+					tell It;
+						setTool mesquite.charMatrices.WandTaxon.WandTaxon.taxaWand;
+					endTell;
+					setTool mesquite.charMatrices.WandTaxon.WandTaxon.taxaWand;
+					colorCells  #mesquite.charMatrices.NoColor.NoColor;
+					colorRowNames  #mesquite.charMatrices.ColorCells.ColorCells;
+				tell It;
+					setColor White;
+					removeColor off;
+				endTell;
+					colorColumnNames  #mesquite.charMatrices.CharGroupColor.CharGroupColor;
+					colorText  #mesquite.charMatrices.NoColor.NoColor;
+					setBackground White;
+					toggleShowNames on;
+					toggleShowTaxonNames on;
+					toggleTight off;
+					toggleThinRows off;
+					toggleShowChanges on;
+					toggleSeparateLines off;
+					toggleShowStates on;
+					toggleAutoWCharNames on;
+					toggleAutoTaxonNames off;
+					toggleShowDefaultCharNames off;
+					toggleConstrainCW on;
+					toggleBirdsEye off;
+					toggleShowPaleGrid off;
+					toggleShowPaleCellColors off;
+					togglePaleInapplicable on;
+					toggleShowBoldCellText off;
+					toggleAllowAutosize on;
+					toggleColorsPanel off;
+					toggleDiagonal on;
+					setDiagonalHeight 80;
+					toggleLinkedScrolling on;
+					toggleScrollLinkedTables off;
+				endTell;
+				showWindow;
+				getWindow;
+				tell It;
+					forceAutosize;
+				endTell;
+				getEmployee #mesquite.charMatrices.ColorByState.ColorByState;
+				tell It;
+					setStateLimit 9;
+					toggleUniformMaximum on;
+				endTell;
+				getEmployee #mesquite.categ.StateNamesStrip.StateNamesStrip;
+				tell It;
+					showStrip off;
+				endTell;
+				getEmployee #mesquite.charMatrices.AnnotPanel.AnnotPanel;
+				tell It;
+					togglePanel off;
+				endTell;
+				getEmployee #mesquite.charMatrices.CharReferenceStrip.CharReferenceStrip;
+				tell It;
+					showStrip off;
+				endTell;
+				getEmployee #mesquite.charMatrices.QuickKeySelector.QuickKeySelector;
+				tell It;
+					autotabOff;
+				endTell;
+				getEmployee #mesquite.charMatrices.SelSummaryStrip.SelSummaryStrip;
+				tell It;
+					showStrip off;
+				endTell;
+				getEmployee #mesquite.stratigraphictools.ColorScaleCells.ColorScaleCells;
+				tell It;
+					setColor Red;
+					removeColor off;
+				endTell;
+				getEmployee #mesquite.categ.SmallStateNamesEditor.SmallStateNamesEditor;
+				tell It;
+					panelOpen true;
+				endTell;
+			endTell;
+			showDataWindow #3277551657204578341 #mesquite.charMatrices.BasicDataWindowMaker.BasicDataWindowMaker;
+			tell It;
+				getWindow;
+				tell It;
+					setExplanationSize 30;
+					setAnnotationSize 20;
+					setFontIncAnnot 0;
+					setFontIncExp 0;
+					setSize 947 560;
+					setLocation 874 432;
+					setFont SanSerif;
+					setFontSize 10;
+					getToolPalette;
+					tell It;
+						setTool mesquite.charMatrices.BasicDataWindowMaker.BasicDataWindow.ibeam;
+					endTell;
+					setTool mesquite.charMatrices.BasicDataWindowMaker.BasicDataWindow.ibeam;
+					colorCells  #mesquite.charMatrices.NoColor.NoColor;
+					colorRowNames  #mesquite.charMatrices.TaxonGroupColor.TaxonGroupColor;
+					colorColumnNames  #mesquite.charMatrices.CharGroupColor.CharGroupColor;
+					colorText  #mesquite.charMatrices.NoColor.NoColor;
+					setBackground White;
+					toggleShowNames on;
+					toggleShowTaxonNames on;
+					toggleTight off;
+					toggleThinRows off;
+					toggleShowChanges on;
+					toggleSeparateLines off;
+					toggleShowStates on;
+					toggleAutoWCharNames on;
+					toggleAutoTaxonNames off;
+					toggleShowDefaultCharNames off;
+					toggleConstrainCW on;
+					toggleBirdsEye off;
+					toggleShowPaleGrid off;
+					toggleShowPaleCellColors off;
+					togglePaleInapplicable on;
+					toggleShowBoldCellText off;
+					toggleAllowAutosize on;
+					toggleColorsPanel off;
+					toggleLinkedScrolling on;
+					toggleScrollLinkedTables off;
+				endTell;
+				showWindow;
+				getWindow;
+				tell It;
+					forceAutosize;
+				endTell;
+				getEmployee #mesquite.charMatrices.ColorByState.ColorByState;
+				tell It;
+					setStateLimit 9;
+					toggleUniformMaximum on;
+				endTell;
+				getEmployee #mesquite.charMatrices.ColorCells.ColorCells;
+				tell It;
+					setColor Red;
+					removeColor off;
+				endTell;
+				getEmployee #mesquite.charMatrices.AnnotPanel.AnnotPanel;
+				tell It;
+					togglePanel off;
+				endTell;
+				getEmployee #mesquite.charMatrices.CharReferenceStrip.CharReferenceStrip;
+				tell It;
+					showStrip off;
+				endTell;
+				getEmployee #mesquite.charMatrices.SelSummaryStrip.SelSummaryStrip;
+				tell It;
+					showStrip off;
+				endTell;
+				getEmployee #mesquite.stratigraphictools.ColorScaleCells.ColorScaleCells;
+				tell It;
+					setColor Red;
+					removeColor off;
+				endTell;
+				getEmployee #mesquite.cont.ItemsEditorForInfoPanel.ItemsEditorForInfoPanel;
+				tell It;
+					panelOpen false;
+				endTell;
+			endTell;
+			showDataWindow #1051896559813976760 #mesquite.charMatrices.BasicDataWindowMaker.BasicDataWindowMaker;
+			tell It;
+				getWindow;
+				tell It;
+					setExplanationSize 30;
+					setAnnotationSize 20;
+					setFontIncAnnot 0;
+					setFontIncExp 0;
+					setSize 947 560;
+					setLocation 874 432;
+					setFont SanSerif;
+					setFontSize 10;
+					getToolPalette;
+					tell It;
+					endTell;
+					setTool mesquite.charMatrices.BasicDataWindowMaker.BasicDataWindow.arrow;
+					colorCells  #mesquite.charMatrices.NoColor.NoColor;
+					colorRowNames  #mesquite.charMatrices.TaxonGroupColor.TaxonGroupColor;
+					colorColumnNames  #mesquite.charMatrices.CharGroupColor.CharGroupColor;
+					colorText  #mesquite.charMatrices.NoColor.NoColor;
+					setBackground White;
+					toggleShowNames on;
+					toggleShowTaxonNames on;
+					toggleTight off;
+					toggleThinRows off;
+					toggleShowChanges on;
+					toggleSeparateLines off;
+					toggleShowStates on;
+					toggleAutoWCharNames on;
+					toggleAutoTaxonNames off;
+					toggleShowDefaultCharNames off;
+					toggleConstrainCW on;
+					toggleBirdsEye off;
+					toggleShowPaleGrid off;
+					toggleShowPaleCellColors off;
+					togglePaleInapplicable on;
+					toggleShowBoldCellText off;
+					toggleAllowAutosize on;
+					toggleColorsPanel off;
+					toggleLinkedScrolling on;
+					toggleScrollLinkedTables off;
+				endTell;
+				showWindow;
+				getWindow;
+				tell It;
+					forceAutosize;
+				endTell;
+				getEmployee #mesquite.charMatrices.ColorByState.ColorByState;
+				tell It;
+					setStateLimit 9;
+					toggleUniformMaximum on;
+				endTell;
+				getEmployee #mesquite.charMatrices.ColorCells.ColorCells;
+				tell It;
+					setColor Red;
+					removeColor off;
+				endTell;
+				getEmployee #mesquite.charMatrices.AnnotPanel.AnnotPanel;
+				tell It;
+					togglePanel off;
+				endTell;
+				getEmployee #mesquite.charMatrices.CharReferenceStrip.CharReferenceStrip;
+				tell It;
+					showStrip off;
+				endTell;
+				getEmployee #mesquite.charMatrices.SelSummaryStrip.SelSummaryStrip;
+				tell It;
+					showStrip off;
+				endTell;
+				getEmployee #mesquite.stratigraphictools.ColorScaleCells.ColorScaleCells;
+				tell It;
+					setColor Red;
+					removeColor off;
+				endTell;
+				getEmployee #mesquite.cont.ItemsEditorForInfoPanel.ItemsEditorForInfoPanel;
+				tell It;
+					panelOpen false;
+				endTell;
+			endTell;
+			showDataWindow #6461038617637913256 #mesquite.charMatrices.BasicDataWindowMaker.BasicDataWindowMaker;
+			tell It;
+				getWindow;
+				tell It;
+					setExplanationSize 30;
+					setAnnotationSize 20;
+					setFontIncAnnot 0;
+					setFontIncExp 0;
+					setSize 947 560;
+					setLocation 874 432;
+					setFont SanSerif;
+					setFontSize 10;
+					getToolPalette;
+					tell It;
+					endTell;
+					setTool mesquite.charMatrices.BasicDataWindowMaker.BasicDataWindow.arrow;
+					colorCells  #mesquite.charMatrices.NoColor.NoColor;
+					colorRowNames  #mesquite.charMatrices.TaxonGroupColor.TaxonGroupColor;
+					colorColumnNames  #mesquite.charMatrices.CharGroupColor.CharGroupColor;
+					colorText  #mesquite.charMatrices.NoColor.NoColor;
+					setBackground White;
+					toggleShowNames on;
+					toggleShowTaxonNames on;
+					toggleTight off;
+					toggleThinRows off;
+					toggleShowChanges on;
+					toggleSeparateLines off;
+					toggleShowStates on;
+					toggleAutoWCharNames on;
+					toggleAutoTaxonNames off;
+					toggleShowDefaultCharNames off;
+					toggleConstrainCW on;
+					toggleBirdsEye off;
+					toggleShowPaleGrid off;
+					toggleShowPaleCellColors off;
+					togglePaleInapplicable on;
+					toggleShowBoldCellText off;
+					toggleAllowAutosize on;
+					toggleColorsPanel off;
+					toggleLinkedScrolling on;
+					toggleScrollLinkedTables off;
+				endTell;
+				showWindow;
+				getWindow;
+				tell It;
+					forceAutosize;
+				endTell;
+				getEmployee #mesquite.charMatrices.ColorByState.ColorByState;
+				tell It;
+					setStateLimit 9;
+					toggleUniformMaximum on;
+				endTell;
+				getEmployee #mesquite.charMatrices.ColorCells.ColorCells;
+				tell It;
+					setColor Red;
+					removeColor off;
+				endTell;
+				getEmployee #mesquite.charMatrices.AnnotPanel.AnnotPanel;
+				tell It;
+					togglePanel off;
+				endTell;
+				getEmployee #mesquite.charMatrices.CharReferenceStrip.CharReferenceStrip;
+				tell It;
+					showStrip off;
+				endTell;
+				getEmployee #mesquite.charMatrices.SelSummaryStrip.SelSummaryStrip;
+				tell It;
+					showStrip off;
+				endTell;
+				getEmployee #mesquite.stratigraphictools.ColorScaleCells.ColorScaleCells;
+				tell It;
+					setColor Red;
+					removeColor off;
+				endTell;
+				getEmployee #mesquite.cont.ItemsEditorForInfoPanel.ItemsEditorForInfoPanel;
+				tell It;
+					panelOpen false;
+				endTell;
+			endTell;
+			showDataWindow #4711159622990754565 #mesquite.charMatrices.BasicDataWindowMaker.BasicDataWindowMaker;
+			tell It;
+				getWindow;
+				tell It;
+					setExplanationSize 30;
+					setAnnotationSize 20;
+					setFontIncAnnot 0;
+					setFontIncExp 0;
+					setSize 947 560;
+					setLocation 874 432;
+					setFont SanSerif;
+					setFontSize 10;
+					getToolPalette;
+					tell It;
+						setTool mesquite.charMatrices.BasicDataWindowMaker.BasicDataWindow.ibeam;
+					endTell;
+					setTool mesquite.charMatrices.BasicDataWindowMaker.BasicDataWindow.ibeam;
+					colorCells  #mesquite.charMatrices.ColorCells.ColorCells;
+				tell It;
+					setColor White;
+					removeColor off;
+				endTell;
+					colorRowNames  #mesquite.charMatrices.TaxonGroupColor.TaxonGroupColor;
+					colorColumnNames  #mesquite.charMatrices.CharGroupColor.CharGroupColor;
+					colorText  #mesquite.charMatrices.NoColor.NoColor;
+					setBackground White;
+					toggleShowNames on;
+					toggleShowTaxonNames on;
+					toggleTight off;
+					toggleThinRows off;
+					toggleShowChanges on;
+					toggleSeparateLines off;
+					toggleShowStates on;
+					toggleAutoWCharNames on;
+					toggleAutoTaxonNames off;
+					toggleShowDefaultCharNames off;
+					toggleConstrainCW on;
+					toggleBirdsEye off;
+					toggleShowPaleGrid off;
+					toggleShowPaleCellColors off;
+					togglePaleInapplicable on;
+					toggleShowBoldCellText off;
+					toggleAllowAutosize on;
+					toggleColorsPanel off;
+					toggleLinkedScrolling on;
+					toggleScrollLinkedTables off;
+				endTell;
+				showWindow;
+				getWindow;
+				tell It;
+					forceAutosize;
+				endTell;
+				getEmployee #mesquite.charMatrices.ColorByState.ColorByState;
+				tell It;
+					setStateLimit 9;
+					toggleUniformMaximum on;
+				endTell;
+				getEmployee #mesquite.charMatrices.AnnotPanel.AnnotPanel;
+				tell It;
+					togglePanel off;
+				endTell;
+				getEmployee #mesquite.charMatrices.CharReferenceStrip.CharReferenceStrip;
+				tell It;
+					showStrip off;
+				endTell;
+				getEmployee #mesquite.charMatrices.SelSummaryStrip.SelSummaryStrip;
+				tell It;
+					showStrip off;
+				endTell;
+				getEmployee #mesquite.stratigraphictools.ColorScaleCells.ColorScaleCells;
+				tell It;
+					setColor Red;
+					removeColor off;
+				endTell;
+				getEmployee #mesquite.cont.ItemsEditorForInfoPanel.ItemsEditorForInfoPanel;
+				tell It;
+					panelOpen false;
+				endTell;
+			endTell;
+			showDataWindow #6886705564431225126 #mesquite.charMatrices.BasicDataWindowMaker.BasicDataWindowMaker;
+			tell It;
+				getWindow;
+				tell It;
+					setExplanationSize 30;
+					setAnnotationSize 20;
+					setFontIncAnnot 0;
+					setFontIncExp 0;
+					setSize 947 560;
+					setLocation 874 432;
+					setFont SanSerif;
+					setFontSize 10;
+					getToolPalette;
+					tell It;
+						setTool mesquite.charMatrices.ColorCells.ColorCells.ColorCells;
+					endTell;
+					setActive;
+					setTool mesquite.charMatrices.ColorCells.ColorCells.ColorCells;
+					colorCells  #mesquite.charMatrices.ColorCells.ColorCells;
+				tell It;
+					setColor Red;
+					removeColor off;
+				endTell;
+					colorRowNames  #mesquite.charMatrices.TaxonGroupColor.TaxonGroupColor;
+					colorColumnNames  #mesquite.charMatrices.CharGroupColor.CharGroupColor;
+					colorText  #mesquite.charMatrices.NoColor.NoColor;
+					setBackground White;
+					toggleShowNames on;
+					toggleShowTaxonNames on;
+					toggleTight off;
+					toggleThinRows off;
+					toggleShowChanges on;
+					toggleSeparateLines off;
+					toggleShowStates on;
+					toggleAutoWCharNames on;
+					toggleAutoTaxonNames off;
+					toggleShowDefaultCharNames off;
+					toggleConstrainCW on;
+					toggleBirdsEye off;
+					toggleShowPaleGrid off;
+					toggleShowPaleCellColors off;
+					togglePaleInapplicable on;
+					toggleShowBoldCellText off;
+					toggleAllowAutosize on;
+					toggleColorsPanel off;
+					toggleLinkedScrolling on;
+					toggleScrollLinkedTables off;
+				endTell;
+				showWindow;
+				getWindow;
+				tell It;
+					forceAutosize;
+				endTell;
+				getEmployee #mesquite.charMatrices.ColorByState.ColorByState;
+				tell It;
+					setStateLimit 9;
+					toggleUniformMaximum on;
+				endTell;
+				getEmployee #mesquite.charMatrices.AnnotPanel.AnnotPanel;
+				tell It;
+					togglePanel off;
+				endTell;
+				getEmployee #mesquite.charMatrices.CharReferenceStrip.CharReferenceStrip;
+				tell It;
+					showStrip off;
+				endTell;
+				getEmployee #mesquite.charMatrices.SelSummaryStrip.SelSummaryStrip;
+				tell It;
+					showStrip off;
+				endTell;
+				getEmployee #mesquite.stratigraphictools.ColorScaleCells.ColorScaleCells;
+				tell It;
+					setColor Red;
+					removeColor off;
+				endTell;
+				getEmployee #mesquite.cont.ItemsEditorForInfoPanel.ItemsEditorForInfoPanel;
+				tell It;
+					panelOpen false;
+				endTell;
+			endTell;
+		endTell;
+		getEmployee  #mesquite.charMatrices.ManageCharacters.ManageCharacters;
+		tell It;
+			showDatasList  #mesquite.lists.DatasetList.DatasetList;
+			tell It;
+				getWindow;
+				tell It;
+					newAssistant  #mesquite.lists.DatasetsListTaxa.DatasetsListTaxa;
+					newAssistant  #mesquite.lists.DatasetsListNumChars.DatasetsListNumChars;
+					newAssistant  #mesquite.lists.DatasetsListClass.DatasetsListClass;
+					getTable;
+					tell It;
+						rowNamesWidth 289;
+					endTell;
+					setExplanationSize 30;
+					setAnnotationSize 20;
+					setFontIncAnnot 0;
+					setFontIncExp 0;
+					setSize 947 560;
+					setLocation 874 432;
+					setFont SanSerif;
+					setFontSize 10;
+					getToolPalette;
+					tell It;
+						setTool mesquite.lists.lib.ListableVectorWindow.ibeam;
+					endTell;
+				endTell;
+				showWindow;
+			endTell;
+		endTell;
+		getEmployee  #mesquite.basic.ManageTaxaPartitions.ManageTaxaPartitions;
+		tell It;
+			showPartitions #748902243685140586 #mesquite.lists.TaxaPartitionList.TaxaPartitionList;
+			tell It;
+				setTaxa #748902243685140586;
+				getWindow;
+				tell It;
+					newAssistant  #mesquite.lists.TaxaPartListNumGroups.TaxaPartListNumGroups;
+					setExplanationSize 30;
+					setAnnotationSize 20;
+					setFontIncAnnot 0;
+					setFontIncExp 0;
+					setSize 947 560;
+					setLocation 874 432;
+					setFont SanSerif;
+					setFontSize 10;
+					getToolPalette;
+					tell It;
+					endTell;
+				endTell;
+				showWindow;
+			endTell;
+		endTell;
+		newAssistant  #mesquite.charts.TaxaScattergram.TaxaScattergram;
+		tell It;
+			setTaxonSource  #mesquite.minimal.StoredTaxa.StoredTaxa;
+			tell It;
+				setTaxa #748902243685140586;
+			endTell;
+			setTaxa #748902243685140586;
+			axesSame;
+			setValues  #mesquite.cont.ContinuousStatesT.ContinuousStatesT;
+			tell It;
+				getCharacterSource  #mesquite.charMatrices.CharSrcCoordObed.CharSrcCoordObed;
+				tell It;
+					setCharacterSource #mesquite.rhetenor.CharFromOrdinations.CharFromOrdinations;
+					tell It;
+						getCharacterSource #mesquite.charMatrices.CharMatrixCoordIndep.CharMatrixCoordIndep;
+						tell It;
+							setCharacterSource #mesquite.charMatrices.StoredMatrices.StoredMatrices;
+							tell It;
+								setDataSet #6461038617637913256;
+							endTell;
+						endTell;
+						setOrdinator #mesquite.rhetenor.CanonicalVariates.CanonicalVariates;
+						setItem 0;
+					endTell;
+				endTell;
+				setCharacter 2;
+				setItem 0;
+			endTell;
+			showNamesToggle on;
+			getCharter #mesquite.charts.ItemsBiplot.ItemsBiplot;
+			tell It;
+				getWindow;
+				tell It;
+					setX 1;
+					setY 2;
+					setExplanationSize 30;
+					setAnnotationSize 20;
+					setFontIncAnnot 0;
+					setFontIncExp 0;
+					setSize 947 560;
+					setLocation 874 432;
+					setFont SanSerif;
+					setFontSize 10;
+					getToolPalette;
+					tell It;
+					endTell;
+				endTell;
+				enableCalculations;
+				getEmployee #mesquite.charts.Scattergram.Scattergram;
+				tell It;
+					markerSize 10;
+					toggleJoin off;
+					toggleShowDots on;
+					movingWindowSize 1;
+					sumByBlocks off;
+				endTell;
+			endTell;
+			setChartVisible;
+			doCounts;
+			showWindow;
+		endTell;
+		endTell;
+end;
+
+
